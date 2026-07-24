@@ -1,0 +1,163 @@
+{
+  "hero": {
+    "badge": "Premium Packaging Manufacturer",
+    "heading": "Crafting Luxury Packaging That Elevates Your Brand",
+    "description": "Box Wale manufactures premium custom packaging solutions for businesses, brands, retailers, gifting companies, and events across India.",
+    "primaryCTA": { "text": "Explore Collection", "href": "/products" },
+    "secondaryCTA": { "text": "Get Free Quote", "href": "/contact" }
+  },
+  
+  "about": {
+    "badge": "About Box Wale",
+    "heading": "India's Premium Packaging Manufacturer",
+    "description": "With over a decade of expertise, Box Wale specializes in designing and manufacturing luxury packaging solutions that combine elegance, durability, and functionality.",
+    "stats": [
+      { "value": "10+", "category": "Years Experience" },
+      { "value": "5000+", "category": "Happy Clients" },
+      { "value": "100+", "category": "Products" },
+      { "value": "24/7", "category": "Support" }
+    ]
+  },
+
+  "whyChooseUs": {
+    "badge": "WHY CHOOSE BOX WALE",
+    "title": "Why Businesses Trust Box Wale Packaging Solutions",
+    "description": "From premium materials to custom manufacturing, every box is crafted with precision, durability and attention to detail to elevate your brand.",
+    "featured": {
+      "badge": "Trusted Manufacturer",
+      "title": "Premium Packaging That Builds Brands",
+      "description": "We manufacture premium packaging solutions that enhance product presentation while protecting every shipment with uncompromising quality.",
+      "image": "https://res.cloudinary.com/gpto0thu/image/upload/v1783022916/Cozy_Winter_Decor_Ideas_to_Transform_Your_Space_f5viqh.jpg"
+    },
+    "features": [
+      { "number": "01", "title": "Premium Quality", "description": "Crafted using carefully selected materials for a premium look and feel.", "icon": "Award" },
+      { "number": "02", "title": "Strong Corrugated Material", "description": "High-strength corrugated boards built for durability and product protection.", "icon": "ShieldCheck" },
+      { "number": "03", "title": "Elegant Finish", "description": "Luxury finishes that enhance your brand's premium identity.", "icon": "Sparkles" },
+      { "number": "04", "title": "Custom Sizes", "description": "Tailor-made dimensions to perfectly fit every product.", "icon": "Ruler" },
+      { "number": "05", "title": "Eco Friendly", "description": "Sustainable materials with environmentally responsible production.", "icon": "Leaf" },
+      { "number": "06", "title": "Bulk Manufacturing", "description": "Efficient large-scale production with consistent quality.", "icon": "Factory" },
+      { "number": "07", "title": "Fast Delivery", "description": "Reliable logistics and on-time delivery for every order.", "icon": "Truck" },
+      { "number": "08", "title": "Affordable Pricing", "description": "Competitive pricing without compromising craftsmanship.", "icon": "BadgeDollarSign" }
+    ],
+    "cta": { "text": "Need Custom Packaging?", "button": "Request Free Quote" }
+  },
+
+  "featuredProducts": {
+    "badge": "Featured Products",
+    "heading": "Best Selling Hampers ",
+    "description": "Discover our most popular premium packaging products trusted by leading businesses across India",
+    "products": [
+      {
+        "id": "luxury-hamper-box-1",
+        "title": "Luxury Hamper Box",
+        "description": "Elegant premium hamper box perfect for corporate gifting, festivals, and special occasions",
+        "image": "https://res.cloudinary.com/gpto0thu/image/upload/v1783110803/luxury-hamper-box_cun0en.jpg",
+        "slug": "luxury-hamper-boxes",
+        "price": "₹299",
+        "badge": "Bestseller"
+      },
+      {
+        "id": "rigid-magnetic-box-1",
+        "title": "Rigid Magnetic Box",
+        "description": "Premium rigid box with magnetic closure, ideal for luxury products and gift sets",
+        "image": "https://res.cloudinary.com/gpto0thu/image/upload/v1783110804/rigid-magnetic-box_zxbjaq.jpg",
+        "slug": "/products/rigid-boxes",
+        "price": "₹399",
+        "badge": "Premium"
+      },
+      {
+        "id": "corrugated-shipping-box-1",
+        "title": "Corrugated Shipping Box",
+        "description": "Heavy-duty double-wall corrugated box for safe e-commerce shipping",
+        "image": "https://res.cloudinary.com/gpto0thu/image/upload/v1783110804/corrugated-box_o1oyow.jpg",
+        "slug": "/products/corrugated-boxes",
+        "price": "₹149",
+        "badge": "Popular"
+      },
+      {
+        "id": "custom-gift-box-1",
+        "title": "Custom Gift Box",
+        "description": "Fully customizable gift box with premium finishes, inserts, and branding options",
+        "image": "https://res.cloudinary.com/gpto0thu/image/upload/v1783110805/custom-gift-box_km3nlt.jpg",
+        "slug": "/products/gift-boxes",
+        "price": "₹249",
+        "badge": "Custom"
+      }
+    ],
+    "cta": { "text": "View All Products", "href": "/products" }
+  },
+
+  "exploreProducts": {
+    "badge": "Explore Collection",
+    "heading": "Explore Our Premium Packaging Collection",
+    "description": "From luxury hamper boxes to custom cardboard solutions, Box Wale manufactures premium packaging for businesses, brands, retailers, gifting companies, and events. Discover the perfect packaging solution for your needs.",
+    "categories": [
+      {
+        "id": "luxury-hamper-boxes",
+        "title": "Luxury Hamper Boxes",
+        "description": "Elegant premium hamper boxes for corporate gifting, festivals, and special occasions",
+        "image": "https://res.cloudinary.com/gpto0thu/image/upload/v1783110604/luxury-hamper-boxes_ifa6yx.jpg",
+        "startingPrice": "₹149",
+        "slug": "/products/luxury-hamper-boxes",
+        "isHero": true
+      },
+      {
+        "id": "gift-boxes",
+        "title": "Gift Boxes",
+        "description": "Beautiful gift boxes for all occasions with premium finishes and customization",
+        "image": "https://res.cloudinary.com/gpto0thu/image/upload/v1783110605/gift-boxes_x05zxp.jpg",
+        "startingPrice": "₹99",
+        "slug": "/products/gift-boxes",
+        "isHero": false
+      },
+      {
+        "id": "rigid-boxes",
+        "title": "Rigid Boxes",
+        "description": "Luxury rigid setup boxes with magnetic closures and custom inserts",
+        "image": "https://res.cloudinary.com/gpto0thu/image/upload/v1783110605/rigid-boxes_dqxcfb.jpg",
+        "startingPrice": "₹199",
+        "slug": "/products/rigid-boxes",
+        "isHero": false
+      },
+      {
+        "id": "corrugated-boxes",
+        "title": "Corrugated Boxes",
+        "description": "Strong and durable shipping boxes for e-commerce and logistics",
+        "image": "https://res.cloudinary.com/gpto0thu/image/upload/v1783110606/corrugated-boxes_tjbvec.jpg",
+        "startingPrice": "₹79",
+        "slug": "/products/corrugated-boxes",
+        "isHero": false
+      },
+      {
+        "id": "packaging-boxes",
+        "title": "Packaging Boxes",
+        "description": "Versatile packaging solutions for retail, products, and brands",
+        "image": "https://res.cloudinary.com/gpto0thu/image/upload/v1783110606/packaging-boxes_h3oaxn.jpg",
+        "startingPrice": "₹129",
+        "slug": "/products/packaging-boxes",
+        "isHero": false
+      },
+      {
+        "id": "custom-cardboard-boxes",
+        "title": "Custom Cardboard Boxes",
+        "description": "Fully customized cardboard boxes designed to your specifications",
+        "image": "https://res.cloudinary.com/gpto0thu/image/upload/v1783110607/custom-cardboard-boxes_sfiqli.jpg",
+        "startingPrice": "₹159",
+        "slug": "/products/custom-cardboard-boxes",
+        "isHero": false
+      }
+    ],
+    "ctaCard": {
+      "title": "Need Something Custom?",
+      "description": "Can't find the perfect packaging solution? We design completely custom packaging tailored to your brand, product, and business requirements.",
+      "primaryButton": { "text": "Request Custom Packaging", "href": "/products/custom-packaging" },
+      "secondaryButton": { "text": "Get Free Quote", "href": "/contact" }
+    },
+    "bottomCTA": {
+      "heading": "Discover 100+ Packaging Solutions",
+      "description": "Browse our complete collection of premium packaging solutions designed for businesses of all sizes.",
+      "buttonText": "Explore All Products",
+      "buttonHref": "/products"
+    }
+  }
+}

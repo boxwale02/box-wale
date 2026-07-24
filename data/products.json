@@ -1,0 +1,1251 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category":"Luxury Hamper Boxes",
+      "slug": "luxury-hamper-boxes",
+      "name": "Luxury Hamper Boxes",
+      "description": "Premium rigid boxes designed for high-end gifting and luxury packaging. Features a magnetic closure and elegant finish.",
+      "startingPrice": 200,
+      "baseWidth": 10,
+      "baseHeight": 12,
+      "baseLength": 7,
+      "featured": false,
+      "images": [
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783110604/luxury-hamper-boxes_ifa6yx.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/Valentine-Day-gift_p6yyxc.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/Luxury-self_e0gwdx.jpg"
+      ],
+      "features": [
+        { 
+          "icon": "Package",
+          "title": "Premium Materials",
+          "description": "Crafted from high-quality rigid board with a luxurious finish."
+        },
+        {
+          "icon": "Shield",
+          "title": "Durable Construction",
+          "description": "Designed to protect and present your products beautifully."
+        },
+        {
+          "icon": "Sparkles",
+          "title": "Customizable Design",
+          "description": "Fully customizable with your brand colors and logo."
+        }
+      ],
+      "specifications": {
+        "material": "Rigid Board with Premium Lamination",
+        "dimensions": "Custom sizes available",
+        "printing": "CMYK + Pantone matching",
+        "finishing": "UV coating, debossing, foil stamping",
+        "moq": "250 units",
+        "deliveryTime": "15-20 business days"
+      },
+      "applications": [
+        "Corporate Gifting",
+        "Weddings",
+        "Retail",
+        "Cosmetics",
+        "Jewelry",
+        "Festival Hampers"
+      ]
+    },
+    {
+      "id": 2,
+       "category":"Luxury Hamper Boxes",
+      "slug": "custom-cardboard-boxes",
+      "name": "Custom Cardboard Boxes",
+      "description": "Versatile and customizable cardboard boxes perfect for retail, shipping, and storage. Available in various sizes and finishes.",
+      "startingPrice": 85,
+      "baseWidth": 15,
+      "baseHeight": 10,
+      "baseLength": 20,
+      "featured": true,
+      "images": [
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783110607/custom-cardboard-boxes_sfiqli.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783110606/packaging-boxes_h3oaxn.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Branding-_-Art-Direction_uoeywk.jpg"
+      ],
+      "features": [
+        {
+          "icon": "Recycle",
+          "title": "Eco-Friendly",
+          "description": "Made from recycled materials and fully recyclable."
+        },
+        {
+          "icon": "Activity",
+          "title": "High Strength",
+          "description": "Engineered for maximum strength and durability."
+        },
+        {
+          "icon": "Palette",
+          "title": "Custom Printing",
+          "description": "High-quality custom printing for your brand."
+        }
+      ],
+      "specifications": {
+        "material": "Premium Cardboard",
+        "dimensions": "Standard and custom sizes",
+        "printing": "CMYK + Flexographic printing",
+        "finishing": "Matte, gloss, or natural finish",
+        "moq": "100 units",
+        "deliveryTime": "7-10 business days"
+      },
+      "applications": [
+        "Retail",
+        "E-commerce",
+        "Storage",
+        "Shipping"
+      ]
+    },
+    {
+      "id": 3,
+       "category":"Luxury Hamper Boxes",
+      "slug": "packaging-boxes",
+      "name": "Packaging Boxes",
+      "description": "High-quality packaging boxes designed for product presentation and protection. Perfect for retail and premium products.",
+      "startingPrice": 150,
+      "baseWidth": 12,
+      "baseHeight": 8,
+      "baseLength": 10,
+      "featured": true,
+      "images": [
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783110606/packaging-boxes_h3oaxn.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Branding-_-Art-Direction_uoeywk.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/gift-hamper_mdwsqi.jpg"
+      ],
+      "features": [
+        {
+          "icon": "Package",
+          "title": "Premium Quality",
+          "description": "Made with high-quality materials for product protection."
+        },
+        {
+          "icon": "Pen",
+          "title": "Custom Branding",
+          "description": "Fully customizable with your brand identity."
+        }
+      ],
+      "specifications": {
+        "material": "Premium Cardboard with Lamination",
+        "dimensions": "Custom sizes available",
+        "printing": "Offset + Digital printing",
+        "finishing": "Matte, gloss, textured",
+        "moq": "200 units",
+        "deliveryTime": "10-12 business days"
+      },
+      "applications": [
+        "Retail",
+        "Cosmetics",
+        "Gift Packaging",
+        "Food Packaging"
+      ]
+    },
+    {
+      "id": 4,
+       "category":"Luxury Hamper Boxes",
+      "slug": "rigid-boxes",
+      "name": "Rigid Boxes",
+      "description": "Premium rigid boxes with a high-end feel. Perfect for luxury products, jewelry, and premium packaging solutions.",
+      "startingPrice": 175,
+      "baseWidth": 8,
+      "baseHeight": 10,
+      "baseLength": 6,
+      "featured": true,
+      "images": [
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783110605/rigid-boxes_dqxcfb.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Branding-_-Art-Direction_uoeywk.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/Luxury-self_e0gwdx.jpg"
+      ],
+      "features": [
+        {
+          "icon": "Award",
+          "title": "Premium Finish",
+          "description": "Luxurious finish with multiple customization options."
+        },
+        {
+          "icon": "Pen",
+          "title": "Custom Printing",
+          "description": "High-quality printing with vibrant colors and detail."
+        },
+        {
+          "icon": "Sparkles",
+          "title": "Luxury Design",
+          "description": "Designed for high-end products and premium presentations."
+        }
+      ],
+      "specifications": {
+        "material": "High-density Rigid Board",
+        "dimensions": "Bespoke sizes available",
+        "printing": "Offset and digital printing",
+        "finishing": "Matt, gloss, textured laminates",
+        "moq": "150 units",
+        "deliveryTime": "12-15 business days"
+      },
+      "applications": [
+        "Luxury Gifts",
+        "Cosmetics",
+        "Jewelry",
+        "Corporate Gifting"
+      ]
+    },
+    {
+      "id": 5,
+      "category":"Luxury Hamper Boxes",
+      "slug": "gift-hampers",
+      "name": "Gift Hampers",
+      "description": "Beautifully crafted gift hampers perfect for any occasion. Customizable with your branding and available in various sizes.",
+      "startingPrice": 250,
+      "baseWidth": 14,
+      "baseHeight": 10,
+      "baseLength": 12,
+      "featured": true,
+      "images": [
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/gift-hamper_mdwsqi.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/hamper-for-men_amuryb.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Luxus-Pink-Pamper-Geschenkbox_jbehcx.jpg"
+      ],
+      "features": [
+        {
+          "icon": "Gift",
+          "title": "Versatile Design",
+          "description": "Perfect for all occasions - corporate, personal, and festive."
+        },
+        {
+          "icon": "Palette",
+          "title": "Custom Finishes",
+          "description": "Available in multiple colors and finishing options."
+        },
+        {
+          "icon": "Sparkles",
+          "title": "Premium Look",
+          "description": "Elegant design that makes a lasting impression."
+        }
+      ],
+      "specifications": {
+        "material": "Premium Cardboard with Lamination",
+        "dimensions": "Custom sizes available",
+        "printing": "CMYK + Digital printing",
+        "finishing": "Glossy, matte, or textured",
+        "moq": "100 units",
+        "deliveryTime": "10-12 business days"
+      },
+      "applications": [
+        "Corporate Gifting",
+        "Weddings",
+        "Festivals",
+        "Personal Gifts"
+      ]
+    },
+    {
+      "id": 6,
+      "category":"Luxury Hamper Boxes",
+      "slug": "valentine-gift-boxes",
+      "name": "Valentine Day Gift Boxes",
+      "description": "Special Valentine's Day gift boxes with romantic designs. Perfect for expressing love and appreciation.",
+      "startingPrice": 180,
+      "baseWidth": 10,
+      "baseHeight": 8,
+      "baseLength": 10,
+      "featured": true,
+      "images": [
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/Valentine-Day-gift_p6yyxc.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Cute-pink-happy-birthday-box_e211m6.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Luxus-Pink-Pamper-Geschenkbox_jbehcx.jpg"
+      ],
+      "features": [
+        {
+          "icon": "Heart",
+          "title": "Romantic Design",
+          "description": "Beautifully designed for Valentine's Day celebrations."
+        },
+        {
+          "icon": "Sparkles",
+          "title": "Elegant Finish",
+          "description": "Premium finish with attention to detail."
+        }
+      ],
+      "specifications": {
+        "material": "Premium Cardboard with Luxury Finish",
+        "dimensions": "Custom sizes available",
+        "printing": "CMYK + Spot colors",
+        "finishing": "Matte lamination with UV spot",
+        "moq": "150 units",
+        "deliveryTime": "8-10 business days"
+      },
+      "applications": [
+        "Valentine's Day",
+        "Weddings",
+        "Personal Gifts",
+        "Special Occasions"
+      ]
+    },
+    {
+      "id": 7,
+      "category":"Luxury Hamper Boxes",
+      "slug": "birthday-gift-boxes",
+      "name": "Birthday Gift Boxes",
+      "description": "Beautiful birthday gift boxes with cute designs. Perfect for celebrating special days with style.",
+      "startingPrice": 160,
+      "baseWidth": 10,
+      "baseHeight": 8,
+      "baseLength": 10,
+      "featured": false,
+      "images": [
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Cute-pink-happy-birthday-box_e211m6.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/Valentine-Day-gift_p6yyxc.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Luxus-Pink-Pamper-Geschenkbox_jbehcx.jpg"
+      ],
+      "features": [
+        {
+          "icon": "Gift",
+          "title": "Celebratory Design",
+          "description": "Fun and festive designs for birthday celebrations."
+        },
+        {
+          "icon": "Sparkles",
+          "title": "Premium Quality",
+          "description": "High-quality materials for a premium gifting experience."
+        }
+      ],
+      "specifications": {
+        "material": "Premium Cardboard",
+        "dimensions": "Custom sizes available",
+        "printing": "CMYK + Digital printing",
+        "finishing": "Matte or gloss lamination",
+        "moq": "100 units",
+        "deliveryTime": "8-10 business days"
+      },
+      "applications": [
+        "Birthday Gifts",
+        "Personal Gifts",
+        "Party Favors",
+        "Special Occasions"
+      ]
+    },
+    {
+      "id": 8,
+      "category":"Luxury Hamper Boxes",
+      "slug": "luxury-self-care-boxes",
+      "name": "Luxury Self-Care Boxes",
+      "description": "Premium self-care and pamper boxes designed for wellness and luxury gifting experiences.",
+      "startingPrice": 280,
+      "baseWidth": 12,
+      "baseHeight": 10,
+      "baseLength": 8,
+      "featured": false,
+      "images": [
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/Luxury-self_e0gwdx.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Luxus-Pink-Pamper-Geschenkbox_jbehcx.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/gift-hamper_mdwsqi.jpg"
+      ],
+      "features": [
+        {
+          "icon": "Heart",
+          "title": "Self-Care Focus",
+          "description": "Designed for wellness and self-care products."
+        },
+        {
+          "icon": "Sparkles",
+          "title": "Luxury Finish",
+          "description": "Premium materials for a luxurious feel."
+        }
+      ],
+      "specifications": {
+        "material": "Premium Rigid Board",
+        "dimensions": "Custom sizes available",
+        "printing": "CMYK + Pantone matching",
+        "finishing": "Soft-touch lamination, foil stamping",
+        "moq": "150 units",
+        "deliveryTime": "12-15 business days"
+      },
+      "applications": [
+        "Wellness Gifts",
+        "Luxury Gifting",
+        "Self-Care Products",
+        "Corporate Gifting"
+      ]
+    },
+    {
+      "id": 9,
+      "category":"Luxury Hamper Boxes",
+      "slug": "branding-art-direction",
+      "name": "Branding & Art Direction Boxes",
+      "description": "Custom packaging with branding and art direction. Perfect for creating unique brand experiences.",
+      "startingPrice": 220,
+      "baseWidth": 11,
+      "baseHeight": 9,
+      "baseLength": 9,
+      "featured": false,
+      "images": [
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Branding-_-Art-Direction_uoeywk.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783110606/packaging-boxes_h3oaxn.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/Luxury-self_e0gwdx.jpg"
+      ],
+      "features": [
+        {
+          "icon": "Pen",
+          "title": "Brand Identity",
+          "description": "Custom designs that reflect your brand identity."
+        },
+        {
+          "icon": "Sparkles",
+          "title": "Creative Direction",
+          "description": "Art-directed packaging for maximum impact."
+        }
+      ],
+      "specifications": {
+        "material": "Premium Cardboard with Lamination",
+        "dimensions": "Custom sizes available",
+        "printing": "CMYK + Pantone matching",
+        "finishing": "Custom finishes as per design",
+        "moq": "200 units",
+        "deliveryTime": "12-15 business days"
+      },
+      "applications": [
+        "Brand Packaging",
+        "Product Launches",
+        "Corporate Gifting",
+        "Retail Displays"
+      ]
+    },
+    {
+      "id": 10,
+      "category":"Luxury Hamper Boxes",
+      "slug": "men-hampers",
+      "name": "Men's Hamper Boxes",
+      "description": "Stylish and masculine hamper boxes designed specifically for men's gifts and products.",
+      "startingPrice": 230,
+      "baseWidth": 13,
+      "baseHeight": 9,
+      "baseLength": 11,
+      "featured": false,
+      "images": [
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/hamper-for-men_amuryb.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/gift-hamper_mdwsqi.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783110604/luxury-hamper-boxes_ifa6yx.jpg"
+      ],
+      "features": [
+        {
+          "icon": "Package",
+          "title": "Masculine Design",
+          "description": "Designed with modern masculine aesthetics."
+        },
+        {
+          "icon": "Shield",
+          "title": "Durable Quality",
+          "description": "Strong and sturdy packaging for premium products."
+        }
+      ],
+      "specifications": {
+        "material": "Premium Cardboard with Matte Finish",
+        "dimensions": "Custom sizes available",
+        "printing": "CMYK + Digital printing",
+        "finishing": "Matte lamination, embossing",
+        "moq": "100 units",
+        "deliveryTime": "10-12 business days"
+      },
+      "applications": [
+        "Men's Gifts",
+        "Corporate Gifting",
+        "Special Occasions",
+        "Luxury Products"
+      ]
+    },
+    {
+      "id": 11,
+      "category":"Luxury Hamper Boxes",
+      "slug": "pink-pamper-boxes",
+      "name": "Pink Pamper Boxes",
+      "description": "Beautiful pink pamper boxes designed for self-care and luxury gifting experiences.",
+      "startingPrice": 240,
+      "baseWidth": 11,
+      "baseHeight": 9,
+      "baseLength": 10,
+      "featured": false,
+      "images": [
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Luxus-Pink-Pamper-Geschenkbox_jbehcx.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/Valentine-Day-gift_p6yyxc.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Cute-pink-happy-birthday-box_e211m6.jpg"
+      ],
+      "features": [
+        {
+          "icon": "Heart",
+          "title": "Elegant Pink Design",
+          "description": "Beautiful pink tones for a luxurious feel."
+        },
+        {
+          "icon": "Sparkles",
+          "title": "Premium Finish",
+          "description": "High-quality finish with attention to detail."
+        }
+      ],
+      "specifications": {
+        "material": "Premium Rigid Board",
+        "dimensions": "Custom sizes available",
+        "printing": "CMYK + Spot colors",
+        "finishing": "Soft-touch lamination, foil stamping",
+        "moq": "100 units",
+        "deliveryTime": "10-12 business days"
+      },
+      "applications": [
+        "Self-Care Products",
+        "Luxury Gifts",
+        "Weddings",
+        "Personal Gifting"
+      ]
+    },  {
+    "id": 101,
+    "category": "Premium Attar Box",
+    "slug": "premium-attar-box-black-gold",
+    "name": "Black & Gold Premium Attar Box",
+    "description": "Luxury rigid attar box with an elegant black finish and premium gold foil detailing for high-end fragrance brands.",
+    "startingPrice": 120,
+    "baseWidth": 4,
+    "baseHeight": 4,
+    "baseLength": 12,
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783798063/Premium_Attar_Boxes_01_qzubj4.jpg",
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/Valentine-Day-gift_p6yyxc.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Cute-pink-happy-birthday-box_e211m6.jpg"
+    ],
+    "features": [
+      {
+        "icon": "Sparkles",
+        "title": "Luxury Gold Foiling",
+        "description": "Premium metallic foil finish for an elegant appearance."
+      },
+      {
+        "icon": "Package",
+        "title": "Rigid Construction",
+        "description": "Strong premium board for maximum protection."
+      }
+    ],
+    "specifications": {
+      "material": "1200 GSM Rigid Board",
+      "dimensions": "Custom Sizes Available",
+      "printing": "CMYK + Gold Foil",
+      "finishing": "Matte Lamination",
+      "moq": "100 units",
+      "deliveryTime": "10-12 business days"
+    },
+    "applications": [
+      "Luxury Attar",
+      "Perfume Oils",
+      "Gift Packaging",
+      "Premium Retail"
+    ]
+  },
+  {
+    "id": 102,
+    "category": "Premium Attar Box",
+    "slug": "premium-attar-box-magnetic",
+    "name": "Magnetic Closure Attar Box",
+    "description": "Premium magnetic closure box offering a sophisticated unboxing experience for luxury attar bottles.",
+    "startingPrice": 150,
+    "baseWidth": 5,
+    "baseHeight": 4,
+    "baseLength": 13,
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783798063/Premium_Attar_Boxes_02_hpamgj.jpg","https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/Valentine-Day-gift_p6yyxc.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Cute-pink-happy-birthday-box_e211m6.jpg"
+    ],
+    "features": [
+      {
+        "icon": "Shield",
+        "title": "Secure Magnetic Lid",
+        "description": "Strong magnetic closure keeps the bottle safe."
+      },
+      {
+        "icon": "Gem",
+        "title": "Luxury Finish",
+        "description": "Premium finishing with elegant presentation."
+      }
+    ],
+    "specifications": {
+      "material": "Rigid Board",
+      "dimensions": "Custom",
+      "printing": "Offset Printing",
+      "finishing": "Soft Touch + Foiling",
+      "moq": "100 units",
+      "deliveryTime": "10 business days"
+    },
+    "applications": [
+      "Attar Bottles",
+      "Luxury Perfume",
+      "Corporate Gifts",
+      "Retail Display"
+    ]
+  },
+  {
+    "id": 103,
+    "category": "Premium Attar Box",
+    "slug": "premium-attar-box-window",
+    "name": "Window Display Attar Box",
+    "description": "Elegant die-cut window box that showcases premium attar bottles without opening the packaging.",
+    "startingPrice": 130,
+    "baseWidth": 4,
+    "baseHeight": 4,
+    "baseLength": 11,
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783798063/Premium_Attar_Boxes_03_frzn10.jpg",
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/Valentine-Day-gift_p6yyxc.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Cute-pink-happy-birthday-box_e211m6.jpg"
+    ],
+    "features": [
+      {
+        "icon": "Eye",
+        "title": "Clear Window",
+        "description": "Displays the product beautifully."
+      },
+      {
+        "icon": "Layers",
+        "title": "Custom Inserts",
+        "description": "Keeps bottles securely in place."
+      }
+    ],
+    "specifications": {
+      "material": "Rigid Board + PVC Window",
+      "dimensions": "Custom",
+      "printing": "CMYK",
+      "finishing": "Matte Lamination",
+      "moq": "200 units",
+      "deliveryTime": "12 business days"
+    },
+    "applications": [
+      "Attar Packaging",
+      "Gift Sets",
+      "Retail Display"
+    ]
+  },
+  {
+    "id": 104,
+    "category": "Premium Attar Box",
+    "slug": "premium-attar-box-embossed",
+    "name": "Embossed Logo Attar Box",
+    "description": "Premium embossed logo box designed to enhance luxury branding and shelf appeal.",
+    "startingPrice": 145,
+    "baseWidth": 5,
+    "baseHeight": 5,
+    "baseLength": 12,
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783798063/Premium_Attar_Boxes_04_lrzbm7.jpg",
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/Valentine-Day-gift_p6yyxc.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Cute-pink-happy-birthday-box_e211m6.jpg"
+    ],
+    "features": [
+      {
+        "icon": "BadgeCheck",
+        "title": "Embossed Branding",
+        "description": "Premium raised logo effect."
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Elegant Finish",
+        "description": "Luxury look with premium textures."
+      }
+    ],
+    "specifications": {
+      "material": "Rigid Board",
+      "dimensions": "Custom",
+      "printing": "CMYK + Embossing",
+      "finishing": "Matte + UV",
+      "moq": "100 units",
+      "deliveryTime": "10-15 business days"
+    },
+    "applications": [
+      "Luxury Attar",
+      "Premium Fragrance",
+      "Exclusive Gifts"
+    ]
+  },
+  {
+    "id": 105,
+    "category": "Premium Attar Box",
+    "slug": "premium-attar-box-soft-touch",
+    "name": "Soft Touch Premium Attar Box",
+    "description": "Minimal yet elegant soft-touch laminated packaging for premium attar collections.",
+    "startingPrice": 135,
+    "baseWidth": 4,
+    "baseHeight": 4,
+    "baseLength": 12,
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783798063/Premium_Attar_Boxes_05_udw1mp.jpg",
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/Valentine-Day-gift_p6yyxc.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Cute-pink-happy-birthday-box_e211m6.jpg"
+      
+    ],
+    "features": [
+      {
+        "icon": "Hand",
+        "title": "Soft Touch Finish",
+        "description": "Velvety premium surface."
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "Durable Build",
+        "description": "Excellent protection during shipping."
+      }
+    ],
+    "specifications": {
+      "material": "Premium Rigid Board",
+      "dimensions": "Custom",
+      "printing": "CMYK",
+      "finishing": "Soft Touch Lamination",
+      "moq": "100 units",
+      "deliveryTime": "10 business days"
+    },
+    "applications": [
+      "Luxury Attar",
+      "Gift Packaging",
+      "Retail Display"
+    ]
+  },
+  {
+    "id": 106,
+    "category": "Premium Attar Box",
+    "slug": "premium-attar-box-double-door",
+    "name": "Double Door Attar Box",
+    "description": "Elegant double-door opening box designed for premium fragrance presentation.",
+    "startingPrice": 180,
+    "baseWidth": 6,
+    "baseHeight": 5,
+    "baseLength": 13,
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783798064/Premium_Attar_Boxes_06_ieegps.jpg",
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/Valentine-Day-gift_p6yyxc.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Cute-pink-happy-birthday-box_e211m6.jpg"
+    ],
+    "features": [
+      {
+        "icon": "DoorOpen",
+        "title": "Double Door Design",
+        "description": "Premium opening experience."
+      },
+      {
+        "icon": "Gift",
+        "title": "Luxury Presentation",
+        "description": "Perfect for gifting."
+      }
+    ],
+    "specifications": {
+      "material": "Rigid Board",
+      "dimensions": "Custom",
+      "printing": "Offset Printing",
+      "finishing": "Foil + UV",
+      "moq": "100 units",
+      "deliveryTime": "12 business days"
+    },
+    "applications": [
+      "Luxury Attar",
+      "Gift Box",
+      "Premium Collections"
+    ]
+  },
+  {
+    "id": 107,
+    "category": "Premium Attar Box",
+    "slug": "premium-attar-box-velvet-insert",
+    "name": "Velvet Insert Attar Box",
+    "description": "Premium attar packaging with soft velvet insert for an exceptional luxury experience.",
+    "startingPrice": 190,
+    "baseWidth": 5,
+    "baseHeight": 5,
+    "baseLength": 12,
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783798064/Premium_Attar_Boxes_07_ggu6dm.jpg",
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/Valentine-Day-gift_p6yyxc.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Cute-pink-happy-birthday-box_e211m6.jpg"
+    ],
+    "features": [
+      {
+        "icon": "Gem",
+        "title": "Velvet Insert",
+        "description": "Soft premium interior."
+      },
+      {
+        "icon": "PackageCheck",
+        "title": "Bottle Protection",
+        "description": "Keeps bottles secure."
+      }
+    ],
+    "specifications": {
+      "material": "Rigid Board + Velvet",
+      "dimensions": "Custom",
+      "printing": "CMYK",
+      "finishing": "Matte + Gold Foil",
+      "moq": "100 units",
+      "deliveryTime": "12 business days"
+    },
+    "applications": [
+      "Luxury Attar",
+      "Gift Packaging",
+      "Premium Retail"
+    ]
+  },
+  {
+    "id": 108,
+    "category": "Premium Attar Box",
+    "slug": "premium-attar-box-premium-sleeve",
+    "name": "Sleeve Style Attar Box",
+    "description": "Premium sliding sleeve packaging offering a clean and elegant unboxing experience.",
+    "startingPrice": 140,
+    "baseWidth": 4,
+    "baseHeight": 4,
+    "baseLength": 11,
+    "featured": false,
+    "images": [
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783798064/Premium_Attar_Boxes_08_uffcgk.jpg",
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/Valentine-Day-gift_p6yyxc.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Cute-pink-happy-birthday-box_e211m6.jpg"
+    ],
+    "features": [
+      {
+        "icon": "MoveHorizontal",
+        "title": "Sliding Sleeve",
+        "description": "Modern luxury packaging."
+      },
+      {
+        "icon": "Palette",
+        "title": "Custom Branding",
+        "description": "Fully customizable artwork."
+      }
+    ],
+    "specifications": {
+      "material": "Rigid Board",
+      "dimensions": "Custom",
+      "printing": "CMYK",
+      "finishing": "Matte / Gloss",
+      "moq": "200 units",
+      "deliveryTime": "10 business days"
+    },
+    "applications": [
+      "Attar",
+      "Luxury Gifts",
+      "Retail"
+    ]
+  },
+  {
+    "id": 109,
+    "category": "Premium Attar Box",
+    "slug": "premium-attar-box-book-style",
+    "name": "Book Style Attar Box",
+    "description": "Book-style rigid packaging designed for premium fragrance collections and gift sets.",
+    "startingPrice": 170,
+    "baseWidth": 5,
+    "baseHeight": 5,
+    "baseLength": 13,
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783798064/Premium_Attar_Boxes_09_cekse7.jpg",
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/Valentine-Day-gift_p6yyxc.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Cute-pink-happy-birthday-box_e211m6.jpg"
+    ],
+    "features": [
+      {
+        "icon": "BookOpen",
+        "title": "Book Style Opening",
+        "description": "Elegant presentation."
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Luxury Finish",
+        "description": "Premium foil and lamination."
+      }
+    ],
+    "specifications": {
+      "material": "Rigid Board",
+      "dimensions": "Custom",
+      "printing": "CMYK + Foil",
+      "finishing": "Soft Touch",
+      "moq": "100 units",
+      "deliveryTime": "12 business days"
+    },
+    "applications": [
+      "Luxury Attar",
+      "Perfume Gift Sets",
+      "Premium Retail"
+    ]
+  },
+  {
+    "id": 110,
+    "category": "Premium Attar Box",
+    "slug": "premium-attar-box-royal-edition",
+    "name": "Royal Edition Premium Attar Box",
+    "description": "Exclusive royal-inspired premium attar box crafted for luxury fragrance collections.",
+    "startingPrice": 210,
+    "baseWidth": 6,
+    "baseHeight": 5,
+    "baseLength": 14,
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783798064/Premium_Attar_Boxes_10_rbb8xj.jpg",
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783798064/Premium_Attar_Boxes_11_hmd3xx.jpg",
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/Valentine-Day-gift_p6yyxc.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Cute-pink-happy-birthday-box_e211m6.jpg"
+    ],
+    "features": [
+      {
+        "icon": "Crown",
+        "title": "Royal Design",
+        "description": "Designed for luxury perfume brands."
+      },
+      {
+        "icon": "Award",
+        "title": "Premium Craftsmanship",
+        "description": "Exceptional build quality and finishing."
+      }
+    ],
+    "specifications": {
+      "material": "Premium Rigid Board",
+      "dimensions": "Custom",
+      "printing": "CMYK + Foil + UV",
+      "finishing": "Soft Touch + Embossing",
+      "moq": "100 units",
+      "deliveryTime": "12-15 business days"
+    },
+    "applications": [
+      "Luxury Attar",
+      "Premium Perfumes",
+      "VIP Gifts",
+      "Exclusive Collections"
+    ]
+  },{
+    "id": 111,
+    "category": "Nikah Nama Box",
+    "slug": "luxury-nikah-nama-box-black-gold",
+    "name": "Luxury Black & Gold Nikah Nama Box",
+    "description": "Premium rigid Nikah Nama box with elegant black finish and gold foil detailing, designed to preserve marriage documents beautifully.",
+    "startingPrice": 180,
+    "baseWidth": 9,
+    "baseHeight": 2,
+    "baseLength": 13,
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783800698/Nikah_Nama_01_wscgmo.jpg",
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/Valentine-Day-gift_p6yyxc.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Cute-pink-happy-birthday-box_e211m6.jpg"
+    ],
+    "features": [
+      {
+        "icon": "HeartHandshake",
+        "title": "Elegant Wedding Design",
+        "description": "Designed especially for Islamic wedding ceremonies."
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "Document Protection",
+        "description": "Keeps Nikah Nama safe from damage."
+      }
+    ],
+    "specifications": {
+      "material": "1200 GSM Rigid Board",
+      "dimensions": "Custom Sizes Available",
+      "printing": "CMYK + Gold Foil",
+      "finishing": "Matte Lamination",
+      "moq": "100 units",
+      "deliveryTime": "10-12 business days"
+    },
+    "applications": [
+      "Nikah Ceremony",
+      "Marriage Certificate",
+      "Wedding Gifts",
+      "Premium Packaging"
+    ]
+  },
+  {
+    "id": 112,
+    "category": "Nikah Nama Box",
+    "slug": "magnetic-nikah-nama-box",
+    "name": "Magnetic Nikah Nama Box",
+    "description": "Luxury magnetic closure box offering a premium presentation for Nikah Nama certificates.",
+    "startingPrice": 220,
+    "baseWidth": 9,
+    "baseHeight": 2,
+    "baseLength": 13,
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783800696/Nikah_Nama_02_k0vlti.jpg",
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783279264/Valentine-Day-gift_p6yyxc.jpg",
+        "https://res.cloudinary.com/gpto0thu/image/upload/v1783279263/Cute-pink-happy-birthday-box_e211m6.jpg"
+    ],
+    "features": [
+      {
+        "icon": "Shield",
+        "title": "Magnetic Closure",
+        "description": "Secure and elegant opening mechanism."
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Premium Finish",
+        "description": "Luxury look with premium detailing."
+      }
+    ],
+    "specifications": {
+      "material": "Rigid Board",
+      "dimensions": "Custom",
+      "printing": "Offset Printing",
+      "finishing": "Soft Touch + Gold Foil",
+      "moq": "100 units",
+      "deliveryTime": "10 business days"
+    },
+    "applications": [
+      "Nikah Nama",
+      "Wedding Documents",
+      "Gift Packaging"
+    ]
+  },
+  {
+    "id": 113,
+    "category": "Nikah Nama Box",
+    "slug": "velvet-nikah-nama-box",
+    "name": "Velvet Nikah Nama Box",
+    "description": "Luxury Nikah Nama presentation box with a soft velvet interior for elegant document storage.",
+    "startingPrice": 250,
+    "baseWidth": 10,
+    "baseHeight": 2,
+    "baseLength": 14,
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783800695/Nikah_Nama_03_s2auwl.jpg"
+    ],
+    "features": [
+      {
+        "icon": "Gem",
+        "title": "Velvet Interior",
+        "description": "Premium soft lining for added elegance."
+      },
+      {
+        "icon": "PackageCheck",
+        "title": "Premium Protection",
+        "description": "Keeps important documents safe."
+      }
+    ],
+    "specifications": {
+      "material": "Rigid Board + Velvet",
+      "dimensions": "Custom",
+      "printing": "CMYK",
+      "finishing": "Soft Touch",
+      "moq": "100 units",
+      "deliveryTime": "12 business days"
+    },
+    "applications": [
+      "Marriage Certificate",
+      "Nikah Nama",
+      "Wedding Keepsake"
+    ]
+  },
+  {
+    "id": 114,
+    "category": "Nikah Nama Box",
+    "slug": "book-style-nikah-nama-box",
+    "name": "Book Style Nikah Nama Box",
+    "description": "Elegant book-opening rigid box crafted for preserving wedding documents with a luxurious presentation.",
+    "startingPrice": 210,
+    "baseWidth": 9,
+    "baseHeight": 2,
+    "baseLength": 13,
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783800693/Nikah_Nama_04_c5zpea.jpg"
+    ],
+    "features": [
+      {
+        "icon": "BookOpen",
+        "title": "Book Style Opening",
+        "description": "Elegant unboxing experience."
+      },
+      {
+        "icon": "Award",
+        "title": "Luxury Finish",
+        "description": "Perfect for premium weddings."
+      }
+    ],
+    "specifications": {
+      "material": "Rigid Board",
+      "dimensions": "Custom",
+      "printing": "CMYK + Gold Foil",
+      "finishing": "Matte Lamination",
+      "moq": "100 units",
+      "deliveryTime": "10-12 business days"
+    },
+    "applications": [
+      "Nikah Ceremony",
+      "Wedding Certificate",
+      "Gift Packaging"
+    ]
+  },
+  {
+    "id": 115,
+    "category": "Nikah Nama Box",
+    "slug": "premium-foil-nikah-nama-box",
+    "name": "Gold Foil Nikah Nama Box",
+    "description": "Premium rigid box featuring luxury gold foil accents for an elegant wedding presentation.",
+    "startingPrice": 230,
+    "baseWidth": 9,
+    "baseHeight": 2,
+    "baseLength": 13,
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783800696/Nikah_Nama_05_soaizc.jpg"
+    ],
+    "features": [
+      {
+        "icon": "Sparkles",
+        "title": "Gold Foiling",
+        "description": "Elegant metallic finish."
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "Durable Build",
+        "description": "Long-lasting rigid construction."
+      }
+    ],
+    "specifications": {
+      "material": "1200 GSM Rigid Board",
+      "dimensions": "Custom",
+      "printing": "CMYK + Foil",
+      "finishing": "Soft Touch",
+      "moq": "100 units",
+      "deliveryTime": "10 business days"
+    },
+    "applications": [
+      "Nikah Nama",
+      "Wedding Gift",
+      "Luxury Packaging"
+    ]
+  },
+  {
+    "id": 116,
+    "category": "Nikah Nama Box",
+    "slug": "classic-nikah-nama-box",
+    "name": "Classic Nikah Nama Box",
+    "description": "Elegant minimalist Nikah Nama box suitable for traditional and modern wedding ceremonies.",
+    "startingPrice": 170,
+    "baseWidth": 9,
+    "baseHeight": 2,
+    "baseLength": 13,
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783800691/Nikah_Nama_06_fkvek8.jpg"
+    ],
+    "features": [
+      {
+        "icon": "Heart",
+        "title": "Elegant Design",
+        "description": "Simple and timeless appearance."
+      },
+      {
+        "icon": "Package",
+        "title": "Premium Quality",
+        "description": "Strong rigid board construction."
+      }
+    ],
+    "specifications": {
+      "material": "Rigid Board",
+      "dimensions": "Custom",
+      "printing": "CMYK",
+      "finishing": "Matte",
+      "moq": "100 units",
+      "deliveryTime": "10 business days"
+    },
+    "applications": [
+      "Nikah Nama",
+      "Wedding Documentation",
+      "Gift Box"
+    ]
+  },
+  {
+    "id": 117,
+    "category": "Nikah Nama Box",
+    "slug": "royal-nikah-nama-box",
+    "name": "Royal Nikah Nama Box",
+    "description": "Premium royal edition Nikah Nama box designed for luxury Islamic weddings.",
+    "startingPrice": 260,
+    "baseWidth": 10,
+    "baseHeight": 2,
+    "baseLength": 14,
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783800689/Nikah_Nama_07_mi1yp3.jpg"
+    ],
+    "features": [
+      {
+        "icon": "Crown",
+        "title": "Royal Design",
+        "description": "Exclusive premium appearance."
+      },
+      {
+        "icon": "Gem",
+        "title": "Luxury Finish",
+        "description": "Designed for high-end weddings."
+      }
+    ],
+    "specifications": {
+      "material": "Premium Rigid Board",
+      "dimensions": "Custom",
+      "printing": "CMYK + UV + Foil",
+      "finishing": "Soft Touch",
+      "moq": "100 units",
+      "deliveryTime": "12 business days"
+    },
+    "applications": [
+      "Luxury Wedding",
+      "Nikah Nama",
+      "Wedding Gifts"
+    ]
+  },
+  {
+    "id": 118,
+    "category": "Nikah Nama Box",
+    "slug": "custom-nikah-nama-box",
+    "name": "Custom Printed Nikah Nama Box",
+    "description": "Fully customizable Nikah Nama box with personalized names, dates, and wedding branding.",
+    "startingPrice": 240,
+    "baseWidth": 9,
+    "baseHeight": 2,
+    "baseLength": 13,
+    "featured": false,
+    "images": [
+      "https://res.cloudinary.com/gpto0thu/image/upload/v1783800689/Nikah_Nama_08_y9ezvg.jpg"
+    ],
+    "features": [
+      {
+        "icon": "Palette",
+        "title": "Custom Printing",
+        "description": "Personalized names and artwork."
+      },
+      {
+        "icon": "BadgeCheck",
+        "title": "Premium Quality",
+        "description": "Ideal for luxury wedding events."
+      }
+    ],
+    "specifications": {
+      "material": "1200 GSM Rigid Board",
+      "dimensions": "Custom",
+      "printing": "CMYK + Foil",
+      "finishing": "Matte / Gloss",
+      "moq": "100 units",
+      "deliveryTime": "10-12 business days"
+    },
+    "applications": [
+      "Wedding Ceremony",
+      "Nikah Nama",
+      "Luxury Event Packaging",
+      "Keepsake Box"
+    ]
+  }
+  ]
+}
+
+
+
+

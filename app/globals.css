@@ -24,3 +24,96 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* Map Section - White Background with Dramatic Golden Shadow */
+.map-section {
+  padding: 60px 0;
+  background: #ffffff; /* Pure white background */
+}
+
+.map-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ✨ REPLACE THIS ENTIRE BLOCK WITH THE NEW VERSION ✨ */
+.map-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  height: 0;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Dramatic Golden Shadow on Hover */
+.map-wrapper:hover {
+  box-shadow: 
+    0 0 20px rgba(201, 168, 76, 0.3),
+    0 0 40px rgba(201, 168, 76, 0.15),
+    0 10px 40px rgba(201, 168, 76, 0.2);
+  transform: scale(1.01) translateY(-4px);
+  border-color: #c9a84c;
+}
+
+/* Golden Border Glow Effect */
+.map-wrapper::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: 18px;
+  padding: 2px;
+  background: linear-gradient(135deg, #c9a84c, #f5e6b8, #c9a84c);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.map-wrapper:hover::before {
+  opacity: 1;
+}
+
+/* Ensure iframe stays on top */
+.map-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  border: 0;
+  z-index: 2;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .map-section {
+    padding: 40px 0;
+  }
+
+  .map-wrapper {
+    border-radius: 12px;
+    padding-bottom: 70%;
+  }
+
+  .map-wrapper:hover {
+    transform: scale(1.005) translateY(-2px);
+  }
+}
+
+@media (max-width: 480px) {
+  .map-section {
+    padding: 30px 0;
+  }
+
+  .map-wrapper {
+    border-radius: 10px;
+    padding-bottom: 80%;
+  }
+}
