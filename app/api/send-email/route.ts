@@ -322,7 +322,32 @@ ${body.estimatedPrice ? `
 
                 </td>
               </tr>
+                      <!-- Admin Panel -->
+<div style="background:#eef6ff; border:1px solid #bfdbfe; border-radius:8px; padding:18px 20px; margin-bottom:20px;">
+  <h3 style="margin:0 0 10px; color:#1d4ed8; font-size:16px;">
+    📊 Admin Dashboard
+  </h3>
 
+  <p style="margin:0 0 12px; color:#374151; font-size:14px; line-height:1.6;">
+    View all quote requests, customer details, and submissions directly in Google Sheets.
+  </p>
+
+  <a
+    href="https://docs.google.com/spreadsheets/d/1YC1ttGvEC8KRrgCHPMZVHtKhc3VWzCPZfAR-W7jmhYs/edit?usp=sharing"
+    target="_blank"
+    style="
+      display:inline-block;
+      background:#2563eb;
+      color:#ffffff;
+      padding:10px 20px;
+      border-radius:6px;
+      text-decoration:none;
+      font-size:14px;
+      font-weight:600;
+    ">
+    📑 Open Excel Sheet
+  </a>
+</div>
               <!-- Footer -->
               <tr>
                 <td style="background:#f9fafb; padding:16px 40px; text-align:center; border-top:1px solid #e5e7eb;">
