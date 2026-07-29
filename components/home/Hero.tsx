@@ -53,7 +53,7 @@ export default function Hero() {
           {[
             "Hampers",
             "Sweet Box",
-            "Sweet Box",
+            "Nikah Nama",
             "Ittar Box",
             "Customize Hampers",
           ].map((item) => (
