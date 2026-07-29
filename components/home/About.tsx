@@ -269,7 +269,7 @@ export default function About() {
             </div>
 
             {/* Action Buttons - Added here */}
-<div className="mt-8 flex flex-wrap gap-4">
+<div className="mt-8 flex flex-wrap justify-center md:justify-start gap-4"git >
   {/* Get Quote Button */}
   <motion.button
     whileHover={{ scale: 1.05 }}

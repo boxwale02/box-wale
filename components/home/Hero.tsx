@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+ import {CheckCircle2 } from 'lucide-react'
 export default function Hero() {
   return (
     <section
@@ -51,28 +51,20 @@ export default function Hero() {
         {/* Audience */}
         <div className="mt-10 flex max-w-4x2 flex-wrap justify-center gap-3">
           {[
-            "Wedding Planners",
-            "Manufacturers",
-            "Event Companies",
-            "Retail Brands",
-            "Bakery",
-            "Jewelry",
-            "Cosmetics",
-            "Buyers",
-            "Corporate",
-            "Gift Buyers",
+            "Hampers",
+            "Sweet Box",
+            "Sweet Box",
+            "Ittar Box",
+            "Customize Hampers",
           ].map((item) => (
-            <span
-              key={item}
-              className="rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm text-gray-100 backdrop-blur-md transition hover:border-amber-400 hover:text-amber-300"
-            >
+            <span  key={item} className="flex items-center gap-2.5 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm text-gray-100 backdrop-blur-md transition hover:border-amber-400 hover:text-amber-300" ><CheckCircle2 className="h-5 w-5 text-green-600" />
               {item}
             </span>
           ))}
         </div>
 
         {/* CTA Buttons - Redesigned smaller version */}
-        <div className="mt-10 flex flex-col gap-3.5 sm:flex-row">
+        <div className="mt-10 flex flex-row justify-between gap-3.5">
           <Link
             href="/products"
             className="rounded-full bg-amber-400 px-6 py-3 text-base font-semibold text-black transition-all duration-300 hover:scale-105 hover:bg-amber-300 focus:outline-none focus:ring-3 focus:ring-amber-300"
