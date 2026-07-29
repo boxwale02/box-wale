@@ -17,7 +17,7 @@ export default function Hero() {
         aria-hidden="true"
       >
         <source
-          src="https://res.cloudinary.com/gpto0thu/video/upload/v1783020433/hero-packaging.mp4_cpd1zl.mp4"
+          src="https://res.cloudinary.com/gpto0thu/video/upload/v1785349844/hero-packagingmp4_1ksFWJ7y_ky1dq5.mp4"
           type="video/mp4"
         />
       </video>
