@@ -37,7 +37,7 @@ export default function About() {
           >
             <div className="relative overflow-hidden rounded-3xl shadow-2xl h-[600px] w-full">
               <img
-                src="https://res.cloudinary.com/gpto0thu/image/upload/v1783022916/Cozy_Winter_Decor_Ideas_to_Transform_Your_Space_f5viqh.jpg"
+                src="https://res.cloudinary.com/gpto0thu/image/upload/v1785349365/mamu_iph3v7.webp"
                 alt="Box Wale Packaging Manufacturing"
                 width={700}
                 height={700}
