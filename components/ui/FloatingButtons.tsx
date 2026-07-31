@@ -15,7 +15,7 @@ export function FloatingButtons() {
   const whatsappLink = `https://wa.me/${whatsappNumber}`
   
   // Replace with your actual phone number
-  const phoneNumber = "+8209293728"
+  const phoneNumber = "8209293728"
 
   return (
     <>
@@ -120,7 +120,7 @@ export function FloatingButtons() {
                   </motion.a>
 
                   {/* Email Option */}
-                  <motion.a
+                  {/* <motion.a
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     href="mailto:boxwale02@gmail.com "
@@ -134,7 +134,7 @@ export function FloatingButtons() {
                       <div className="text-xs text-gray-500">Send us an email</div>
                     </div>
                     <ArrowRight className="w-4 h-4 text-purple-600 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  </motion.a>
+                  </motion.a> */}
                 </div>
               </div>
             </motion.div>
