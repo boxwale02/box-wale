@@ -301,10 +301,10 @@ if (!/^\d{8,15}$/.test(phone)) {
           <span className="inline-block rounded-full bg-amber-100 px-4 py-1.5 text-sm font-semibold uppercase tracking-wider text-amber-700">
             Get In Touch
           </span>
-          <h2 className="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
+          <h2 className="mt-4 text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900 sm:text-2xl sm:text-3xl lg:text-4xl md:text-5xl">
             Request Your Free Packaging Quote
           </h2>
-          <p className="mt-4 text-lg text-gray-600 md:text-xl">
+          <p className="mt-4 text-sm sm:text-sm sm:text-base text-gray-600 md:text-xl">
             Tell us about your packaging requirements and our team will provide
             a customized quotation tailored to your needs.
           </p>
@@ -324,10 +324,10 @@ if (!/^\d{8,15}$/.test(phone)) {
               <span className="inline-block rounded-full bg-amber-100 px-4 py-1.5 text-sm font-semibold uppercase tracking-wider text-amber-700">
                 Why Choose Box Wale
               </span>
-              <h3 className="mt-4 text-2xl font-bold text-gray-900 sm:text-3xl">
+              <h3 className="mt-4 text-2xl font-bold text-gray-900 sm:text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl">
                 Premium Packaging Solutions Built Around Your Needs
               </h3>
-              <p className="mt-4 text-base text-gray-600">
+              <p className="mt-4 text-sm sm:text-base text-gray-600">
                 We combine quality craftsmanship, innovative design, and
                 personalized service to deliver packaging solutions that exceed
                 expectations and strengthen your brand identity.

@@ -41,7 +41,7 @@ export function ProductApplications({ applications }: ProductApplicationsProps) 
       viewport={{ once: true }}
       className="mb-16"
     >
-      <h2 className="text-3xl font-serif font-bold text-gray-900 mb-8">Applications</h2>
+      <h2 className="text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-gray-900 mb-8">Applications</h2>
       <motion.div
         variants={containerVariants}
         initial="hidden"

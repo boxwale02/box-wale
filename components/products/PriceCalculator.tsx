@@ -40,7 +40,7 @@ export default function PriceCalculator({ product }: PriceCalculatorProps) {
       <div className="bg-white rounded-3xl shadow-sm border border-gray-100 p-6 md:p-8">
         <div className="flex items-center gap-3 mb-6">
           <Calculator className="w-6 h-6 text-amber-500" />
-          <h2 className="text-3xl font-serif font-bold text-gray-900">Price Calculator</h2>
+          <h2 className="text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-gray-900">Price Calculator</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -103,7 +103,7 @@ export default function PriceCalculator({ product }: PriceCalculatorProps) {
                 <p className="text-sm text-gray-500 mb-1">Estimated Price per Unit</p>
                 <div className="flex items-center gap-2">
                   <DollarSign className="w-6 h-6 text-amber-600" />
-                  <span className="text-3xl font-bold text-amber-600">
+                  <span className="text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl font-bold text-amber-600">
                     ₹{result.estimatedPrice.toFixed(2)}
                   </span>
                 </div>
@@ -113,7 +113,7 @@ export default function PriceCalculator({ product }: PriceCalculatorProps) {
                 <p className="text-sm text-gray-500 mb-1">Total Estimated Cost</p>
                 <div className="flex items-center gap-2">
                   <Package className="w-6 h-6 text-amber-600" />
-                  <span className="text-3xl font-bold text-amber-600">
+                  <span className="text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl font-bold text-amber-600">
                     ₹{result.totalCost.toFixed(2)}
                   </span>
                 </div>

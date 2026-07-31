@@ -110,7 +110,7 @@ const FAQSection = () => {
   };
 
   return (
-    <section className="relative overflow-hidden bg-white py-15 md:py-20">
+    <section className="relative overflow-hidden bg-white py-15 md:py-14 md:py-16 lg:py-20">
       {/* Subtle Amber Glow Effects */}
       <div className="absolute -top-40 -left-40 h-80 w-80 rounded-full bg-amber-100/30 blur-3xl" />
       <div className="absolute -bottom-40 -right-40 h-80 w-80 rounded-full bg-amber-50/40 blur-3xl" />
@@ -128,10 +128,10 @@ const FAQSection = () => {
           <span className="inline-block rounded-full bg-amber-100 px-4 py-1.5 text-sm font-semibold uppercase tracking-wider text-amber-700">
             Frequently Asked Questions
           </span>
-          <h2 className="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
+          <h2 className="mt-4 text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900 sm:text-2xl sm:text-3xl lg:text-4xl md:text-5xl">
             Everything You Need to Know About Our Packaging Solutions
           </h2>
-          <p className="mt-4 text-lg text-gray-600 md:text-xl">
+          <p className="mt-4 text-sm sm:text-sm sm:text-base text-gray-600 md:text-xl">
             Find answers to the most common questions about custom packaging,
             manufacturing, pricing, delivery, and order requirements.
           </p>
@@ -166,7 +166,7 @@ const FAQSection = () => {
                     aria-expanded={openId === item.id}
                   >
                     <span
-                      className={`text-base font-semibold transition-colors duration-200 md:text-lg ${
+                      className={`text-sm sm:text-base font-semibold transition-colors duration-200 md:text-sm sm:text-sm sm:text-base ${
                         openId === item.id
                           ? "text-amber-600"
                           : "text-gray-900 group-hover:text-amber-600"
@@ -193,7 +193,7 @@ const FAQSection = () => {
                   >
                     <div className="px-6 pb-6 md:px-8 md:pb-8">
                       <div className="h-px w-full bg-gradient-to-r from-transparent via-amber-200 to-transparent" />
-                      <p className="mt-4 text-base leading-relaxed text-gray-600 md:text-lg">
+                      <p className="mt-4 text-sm sm:text-base leading-7 text-gray-600 md:text-sm sm:text-sm sm:text-base">
                         {item.answer}
                       </p>
                     </div>
@@ -231,10 +231,10 @@ const FAQSection = () => {
               <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
                 {/* Left Content */}
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold text-gray-900 sm:text-3xl">
+                  <h3 className="text-2xl font-bold text-gray-900 sm:text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl">
                     Let&apos;s Discuss Your Packaging Requirements
                   </h3>
-                  <p className="text-base text-gray-600 md:text-lg">
+                  <p className="text-sm sm:text-base text-gray-600 md:text-sm sm:text-sm sm:text-base">
                     Our packaging experts are ready to help you choose the right
                     materials, dimensions, designs, and solutions for your
                     business or special occasion.

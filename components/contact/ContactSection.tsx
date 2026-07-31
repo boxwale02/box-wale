@@ -254,10 +254,10 @@ if (!/^[6-9]\d{9}$/.test(phone)) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-3">
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-3">
               Get in Touch
             </h1>
-            <p className="text-lg text-gray-600 leading-relaxed">
+            <p className="text-sm sm:text-sm sm:text-base text-gray-600 leading-7">
               Have questions about our premium packaging solutions? Reach out to us and
               we&apos;ll be happy to assist you.
             </p>

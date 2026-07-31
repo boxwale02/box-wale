@@ -73,23 +73,23 @@ export default function ProductCTAClient({ product }: ProductCTAClientProps) {
   const inputClasses = "w-full rounded-lg border border-gray-300 px-4 py-3 text-gray-900 placeholder-gray-400 focus:border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-500/20 transition-all"
 
   return (
-    <section className="py-16 md:py-20">
+    <section className="py-16 md:py-14 md:py-16 lg:py-20">
       <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-amber-50 to-amber-100/50 p-8 md:p-12">
         <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-amber-200/30 blur-3xl" />
         <div className="absolute -bottom-20 -left-20 h-64 w-64 rounded-full bg-amber-200/20 blur-3xl" />
 
         <div className="relative flex flex-col items-center text-center">
-          <h2 className="text-3xl font-serif font-bold text-gray-900 md:text-4xl">
+          <h2 className="text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-gray-900 md:text-2xl sm:text-3xl lg:text-4xl">
             Ready to Order {product.name}?
           </h2>
-          <p className="mt-4 max-w-2xl text-lg text-gray-600">
+          <p className="mt-4 max-w-2xl text-sm sm:text-sm sm:text-base text-gray-600">
             Get a free quote for custom packaging solutions. We deliver premium quality
             with fast turnaround times.
           </p>
 
           <button
             onClick={() => setIsOpen(true)}
-            className="mt-8 inline-flex items-center gap-3 rounded-full bg-amber-600 px-8 py-4 text-lg font-semibold text-white shadow-lg shadow-amber-200/50 transition-all hover:bg-amber-700 hover:shadow-xl hover:shadow-amber-300/50"
+            className="mt-8 inline-flex items-center gap-3 rounded-full bg-amber-600 px-8 py-4 text-sm sm:text-sm sm:text-base font-semibold text-white shadow-lg shadow-amber-200/50 transition-all hover:bg-amber-700 hover:shadow-xl hover:shadow-amber-300/50"
           >
             Request Free Quote
             <ArrowRight className="h-5 w-5" />

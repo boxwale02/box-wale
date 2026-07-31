@@ -50,7 +50,7 @@ export function RelatedProducts({ currentProductId }: RelatedProductsProps) {
   return (
     <section className="py-12 md:py-16">
       <div className="flex items-center justify-between mb-8">
-        <h2 className="text-2xl font-serif font-bold text-gray-900 md:text-3xl">
+        <h2 className="text-2xl font-serif font-bold text-gray-900 md:text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl">
           You May Also Like
         </h2>
         <Link
@@ -79,7 +79,7 @@ export function RelatedProducts({ currentProductId }: RelatedProductsProps) {
                 />
               ) : (
                 <div className="flex h-full items-center justify-center bg-amber-50">
-                  <span className="text-4xl">📦</span>
+                  <span className="text-2xl sm:text-3xl lg:text-4xl">📦</span>
                 </div>
               )}
             </div>

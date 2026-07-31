@@ -90,7 +90,7 @@ const CustomerTestimonials = () => {
     const doubledTestimonials = [...testimonials, ...testimonials];
 
     return (
-        <section className="relative overflow-hidden bg-white py-16 md:py-20">
+        <section className="relative overflow-hidden bg-white py-16 md:py-14 md:py-16 lg:py-20">
             {/* Subtle Amber Glow Effects */}
             <div className="absolute -top-40 -right-40 h-80 w-80 rounded-full bg-amber-100/30 blur-3xl" />
             <div className="absolute -bottom-40 -left-40 h-80 w-80 rounded-full bg-amber-50/40 blur-3xl" />
@@ -108,10 +108,10 @@ const CustomerTestimonials = () => {
                     <span className="inline-block rounded-full bg-amber-100 px-4 py-1.5 text-sm font-semibold uppercase tracking-wider text-amber-700">
                         Customer Testimonials
                     </span>
-                    <h2 className="mt-3 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                    <h2 className="mt-3 text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900 sm:text-2xl sm:text-3xl lg:text-4xl">
                         Trusted by Businesses, Brands & Customers Across India
                     </h2>
-                    <p className="mt-3 text-base text-gray-600">
+                    <p className="mt-3 text-sm sm:text-base text-gray-600">
                         From corporate gifting to luxury packaging solutions
                     </p>
                 </motion.div>
@@ -150,7 +150,7 @@ const CustomerTestimonials = () => {
                                 </div>
 
                                 {/* Review */}
-                                <p className="mb-4 text-sm leading-relaxed text-gray-700 line-clamp-3">
+                                <p className="mb-4 text-sm leading-7 text-gray-700 line-clamp-3">
                                     &ldquo;{testimonial.review}&rdquo;
                                 </p>
 
@@ -209,7 +209,7 @@ const CustomerTestimonials = () => {
                                 </div>
 
                                 {/* Review */}
-                                <p className="mb-4 text-sm leading-relaxed text-gray-700 line-clamp-3">
+                                <p className="mb-4 text-sm leading-7 text-gray-700 line-clamp-3">
                                     &ldquo;{testimonial.review}&rdquo;
                                 </p>
 

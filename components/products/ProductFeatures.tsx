@@ -38,7 +38,7 @@ export function ProductFeatures({ features }: ProductFeaturesProps) {
       viewport={{ once: true }}
       className="mb-16"
     >
-      <h2 className="text-3xl font-serif font-bold text-gray-900 mb-8">Key Features</h2>
+      <h2 className="text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-gray-900 mb-8">Key Features</h2>
       <motion.div
         variants={containerVariants}
         initial="hidden"
@@ -57,7 +57,7 @@ export function ProductFeatures({ features }: ProductFeaturesProps) {
               <div className="w-12 h-12 bg-amber-100 rounded-2xl flex items-center justify-center mb-4 group-hover:bg-amber-500 transition-colors">
                 <Icon className="w-6 h-6 text-amber-600 group-hover:text-white transition-colors" />
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">{feature.title}</h3>
+              <h3 className="text-sm sm:text-sm sm:text-base font-semibold text-gray-900 mb-2">{feature.title}</h3>
               <p className="text-gray-600">{feature.description}</p>
             </motion.div>
           )

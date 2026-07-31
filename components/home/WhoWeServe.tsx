@@ -115,10 +115,10 @@ const WhoWeServe = () => {
           <span className="inline-block rounded-full bg-amber-100 px-4 py-1.5 text-sm font-semibold uppercase tracking-wider text-amber-700">
             Who We Serve
           </span>
-          <h2 className="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
+          <h2 className="mt-4 text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900 sm:text-2xl sm:text-3xl lg:text-4xl md:text-5xl">
             Packaging Solutions for Every Industry & Occasion
           </h2>
-          <p className="mt-4 text-lg text-gray-600 md:text-xl">
+          <p className="mt-4 text-sm sm:text-sm sm:text-base text-gray-600 md:text-xl">
             We help businesses, brands, and individuals create memorable
             packaging experiences with custom-designed boxes crafted for every
             purpose.
@@ -163,7 +163,7 @@ const WhoWeServe = () => {
                 </div>
 
                 {/* Description - Bottom */}
-                <p className="text-sm leading-relaxed text-gray-600">
+                <p className="text-sm leading-7 text-gray-600">
                   {category.description}
                 </p>
 

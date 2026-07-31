@@ -110,7 +110,7 @@ function FeatureCard({ feature }: FeatureCardProps) {
       </div>
 
       {/* Description below */}
-      <p className="relative z-10 mt-4 leading-relaxed text-neutral-600">
+      <p className="relative z-10 mt-4 leading-7 text-neutral-600">
         {feature.description}
       </p>
 
@@ -182,7 +182,7 @@ export default function WhyChooseUs() {
               {data.title}
             </h2>
 
-            <p className="mx-auto mt-6 max-w-2x2 text-lg leading-8 text-neutral-600">
+            <p className="mx-auto mt-6 max-w-2x2 text-sm sm:text-sm sm:text-base leading-8 text-neutral-600">
               {data.description}
             </p>
           </motion.header>
@@ -250,7 +250,7 @@ export default function WhyChooseUs() {
               </div>
 
               <div className="absolute bottom-0 left-0 w-full p-10">
-                <h3 className="max-w-xl text-3xl font-bold text-white">
+                <h3 className="max-w-xl text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
                   {data.featured.title}
                 </h3>
 
@@ -321,7 +321,7 @@ export default function WhyChooseUs() {
                       BOX WALE
                     </span> */}
 
-                    <h3 className="mt-6 text-3xl font-bold text-neutral-900">
+                    <h3 className="mt-6 text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl font-bold text-neutral-900">
                       {data.cta.text}
                     </h3>
 

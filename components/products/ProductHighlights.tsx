@@ -35,13 +35,13 @@ export function ProductHighlights({ product }: ProductHighlightsProps) {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
         {/* Left Column - Overview Text */}
         <div>
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-6">
+          <h2 className="text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl md:text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-gray-900 mb-6">
             Product Highlights
           </h2>
-          <p className="text-lg text-gray-600 leading-relaxed mb-6">
+          <p className="text-sm sm:text-sm sm:text-base text-gray-600 leading-7 mb-6">
             {product.description}
           </p>
-          <p className="text-gray-600 leading-relaxed">
+          <p className="text-gray-600 leading-7">
             Crafted with precision using premium materials, our {product.name} is designed to 
             elevate your brand presence and create a lasting impression on your customers.
           </p>
@@ -77,7 +77,7 @@ export function ProductHighlights({ product }: ProductHighlightsProps) {
                     <Icon className="w-6 h-6 text-amber-600 group-hover:text-white transition-colors duration-300" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-1">
+                    <h3 className="text-sm sm:text-sm sm:text-base font-semibold text-gray-900 mb-1">
                       {feature.title}
                     </h3>
                     <p className="text-gray-600">{feature.description}</p>

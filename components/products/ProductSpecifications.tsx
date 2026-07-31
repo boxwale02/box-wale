@@ -32,7 +32,7 @@ export function ProductSpecifications({ specifications }: ProductSpecificationsP
       viewport={{ once: true }}
       className="mb-16"
     >
-      <h2 className="text-3xl font-serif font-bold text-gray-900 mb-8">Specifications</h2>
+      <h2 className="text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-gray-900 mb-8">Specifications</h2>
       <div className="bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden">
         <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-gray-100">
           {specs.map((spec, index) => (

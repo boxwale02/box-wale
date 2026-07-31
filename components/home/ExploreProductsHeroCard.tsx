@@ -91,7 +91,7 @@ export default function ExploreProductsHeroCard({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.5 }}
           viewport={{ once: true }}
-          className="mb-3 font-serif text-3xl font-bold tracking-tight text-white md:text-4xl lg:text-5xl"
+          className="mb-3 font-serif text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-white md:text-2xl sm:text-3xl lg:text-4xl lg:text-4xl"
         >
           {category.title}
         </motion.h2>
@@ -101,7 +101,7 @@ export default function ExploreProductsHeroCard({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.5 }}
           viewport={{ once: true }}
-          className="mb-6 max-w-xl text-lg leading-relaxed text-gray-200"
+          className="mb-6 max-w-xl text-sm sm:text-sm sm:text-base leading-7 text-gray-200"
         >
           {category.description}
         </motion.p>
@@ -114,7 +114,7 @@ export default function ExploreProductsHeroCard({
         >
           <Link
             href={category.slug}
-            className="group/btn inline-flex items-center gap-3 rounded-full bg-white px-6 py-3 text-base font-semibold text-gray-900 shadow-xl transition-all duration-300 hover:bg-amber-50 hover:gap-4 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2"
+            className="group/btn inline-flex items-center gap-3 rounded-full bg-white px-6 py-3 text-sm sm:text-base font-semibold text-gray-900 shadow-xl transition-all duration-300 hover:bg-amber-50 hover:gap-4 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2"
             aria-category={`Explore ${category.title} collection`}
           >
             Explore Collection

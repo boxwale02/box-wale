@@ -25,11 +25,11 @@ export function ProductOverview({ product }: ProductOverviewProps) {
       viewport={{ once: true }}
       className="mb-16"
     >
-      <h2 className="text-3xl font-serif font-bold text-gray-900 mb-6">Overview</h2>
+      <h2 className="text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-gray-900 mb-6">Overview</h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div>
-          <p className="text-gray-600 leading-relaxed mb-6">{product.description}</p>
-          <p className="text-gray-600 leading-relaxed">
+          <p className="text-gray-600 leading-7 mb-6">{product.description}</p>
+          <p className="text-gray-600 leading-7">
             Our {product.name} is designed with precision and crafted using premium materials.
             Perfect for businesses looking to make a lasting impression with their packaging.
           </p>

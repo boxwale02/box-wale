@@ -99,12 +99,12 @@ export default function FeaturedProducts({ data }: FeaturedProductsProps) {
           transition={{ duration: 0.6 }}
           className="mb-8 md:mb-10 lg:mb-12 text-center"
         >
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 md:text-4xl lg:text-5xl">
+          <h2 className="text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900 md:text-2xl sm:text-3xl lg:text-4xl lg:text-4xl">
             {data?.heading || "Premium Attar Boxes"}
           </h2>
 
           {data?.description && (
-            <p className="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-gray-600 md:text-lg">
+            <p className="mx-auto mt-4 max-w-2xl text-sm sm:text-base leading-7 text-gray-600 md:text-sm sm:text-sm sm:text-base">
               {data.description}
             </p>
           )}
@@ -163,11 +163,11 @@ export default function FeaturedProducts({ data }: FeaturedProductsProps) {
 
               {/* Content */}
               <div className="p-4 md:p-5">
-                <h3 className="mb-1.5 font-serif text-lg font-semibold tracking-tight text-gray-900 transition-colors duration-300 group-hover:text-amber-600">
+                <h3 className="mb-1.5 font-serif text-sm sm:text-sm sm:text-base font-semibold tracking-tight text-gray-900 transition-colors duration-300 group-hover:text-amber-600">
                   {product.name}
                 </h3>
                 
-                <p className="mb-3 text-sm leading-relaxed text-gray-600 line-clamp-2">
+                <p className="mb-3 text-sm leading-7 text-gray-600 line-clamp-2">
                   {product.description}
                 </p>
 
@@ -194,7 +194,7 @@ export default function FeaturedProducts({ data }: FeaturedProductsProps) {
           >
             <Link
               href={`${data.cta.href}?category=Premium%20Attar%20Box`}
-              className="group inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 text-base font-semibold text-white shadow-xl shadow-amber-600/25 transition-all duration-300 hover:bg-amber-700 hover:gap-3 hover:shadow-2xl md:px-8 md:py-3.5"
+              className="group inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 text-sm sm:text-base font-semibold text-white shadow-xl shadow-amber-600/25 transition-all duration-300 hover:bg-amber-700 hover:gap-3 hover:shadow-2xl md:px-8 md:py-3.5"
             >
               {data.cta.text}
               <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1 md:h-5 md:w-5" />

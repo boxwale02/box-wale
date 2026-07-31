@@ -76,10 +76,10 @@ export default function ExploreProductsCTACard({
           </span>
         </div>
 
-        <h2 className="mb-4 text-3xl font-bold tracking-tight text-gray-900 md:text-4xl">          {ctaCard.title}
+        <h2 className="mb-4 text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900 md:text-2xl sm:text-3xl lg:text-4xl">          {ctaCard.title}
         </h2>
 
-        <p className="mb-8 max-w-2xl text-lg leading-relaxed text-gray-700">
+        <p className="mb-8 max-w-2xl text-sm sm:text-sm sm:text-base leading-7 text-gray-700">
           {ctaCard.description}
         </p>
 
@@ -87,7 +87,7 @@ export default function ExploreProductsCTACard({
         <div className="flex flex-col gap-4 sm:flex-row">
           <Link
             href={ctaCard.primaryButton.href}
-            className="group/btn inline-flex items-center justify-center gap-2 rounded-full bg-amber-600 px-6 py-3 text-base font-semibold text-white shadow-lg shadow-amber-600/25 transition-all duration-300 hover:bg-amber-700 hover:gap-3 hover:shadow-xl hover:shadow-amber-600/30 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2"
+            className="group/btn inline-flex items-center justify-center gap-2 rounded-full bg-amber-600 px-6 py-3 text-sm sm:text-base font-semibold text-white shadow-lg shadow-amber-600/25 transition-all duration-300 hover:bg-amber-700 hover:gap-3 hover:shadow-xl hover:shadow-amber-600/30 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2"
             aria-category={ctaCard.primaryButton.text}
           >
             {ctaCard.primaryButton.text}
@@ -96,7 +96,7 @@ export default function ExploreProductsCTACard({
 
           <Link
             href={ctaCard.secondaryButton.href}
-            className="group/btn inline-flex items-center justify-center gap-2 rounded-full border-2 border-amber-300 bg-white/80 px-6 py-3 text-base font-semibold text-amber-700 backdrop-blur-sm transition-all duration-300 hover:border-amber-400 hover:bg-white hover:gap-3 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2"
+            className="group/btn inline-flex items-center justify-center gap-2 rounded-full border-2 border-amber-300 bg-white/80 px-6 py-3 text-sm sm:text-base font-semibold text-amber-700 backdrop-blur-sm transition-all duration-300 hover:border-amber-400 hover:bg-white hover:gap-3 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2"
             aria-category={ctaCard.secondaryButton.text}
           >
             {ctaCard.secondaryButton.text}

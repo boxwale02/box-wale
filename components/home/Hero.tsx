@@ -35,7 +35,7 @@ export default function Hero() {
       <div className="relative z-10 mx-auto flex max-w-5x5 flex-col items-center px-6 text-center">
         <h2
           id="hero-heading"
-          className="max-w-4x4 text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl"
+          className="max-w-4x4 text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl"
         >
           Handmade {" "}
           <span className="text-amber-400">
@@ -44,7 +44,7 @@ export default function Hero() {
           Hamper
         </h2>
 
-        <p className="mt-4 max-w-3xl text-lg leading-8 text-gray-200 md:text-xl">
+        <p className="mt-4 max-w-3xl text-sm sm:text-sm sm:text-base leading-8 text-gray-200 md:text-xl">
           Crafted for Businesses, Brands & Every Special Occasion.
         </p>
 
@@ -67,14 +67,14 @@ export default function Hero() {
         <div className="mt-10 flex flex-row justify-between gap-3.5">
           <Link
             href="/products"
-            className="rounded-full bg-amber-400 px-6 py-3 text-base font-semibold text-black transition-all duration-300 hover:scale-105 hover:bg-amber-300 focus:outline-none focus:ring-3 focus:ring-amber-300"
+            className="rounded-full bg-amber-400 px-6 py-3 text-sm sm:text-base font-semibold text-black transition-all duration-300 hover:scale-105 hover:bg-amber-300 focus:outline-none focus:ring-3 focus:ring-amber-300"
           >
             Explore Products
           </Link>
 
           <Link
             href="/contact"
-            className="rounded-full border border-white/30 bg-white/10 px-6 py-3 text-base font-semibold text-white backdrop-blur-md transition-all duration-300 hover:scale-105 hover:border-amber-400 hover:bg-white/20 focus:outline-none focus:ring-3 focus:ring-white/40"
+            className="rounded-full border border-white/30 bg-white/10 px-6 py-3 text-sm sm:text-base font-semibold text-white backdrop-blur-md transition-all duration-300 hover:scale-105 hover:border-amber-400 hover:bg-white/20 focus:outline-none focus:ring-3 focus:ring-white/40"
           >
             Get Free Quote
           </Link>

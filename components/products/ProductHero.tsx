@@ -70,16 +70,16 @@ export function ProductHero({ product }: ProductHeroProps) {
               </span>
             )} */}
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-gray-900 leading-tight">
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-gray-900 leading-tight">
               {product.name}
             </h1>
 
-            <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-xl">
+            <p className="text-sm sm:text-sm sm:text-base md:text-xl text-gray-600 leading-7 max-w-xl">
               {product.description}
             </p>
 
             <div className="flex items-baseline gap-3">
-              <span className="text-4xl font-bold text-amber-600">₹{product.startingPrice}</span>
+              <span className="text-2xl sm:text-3xl lg:text-4xl font-bold text-amber-600">₹{product.startingPrice}</span>
               <span className="text-gray-500">Starting Price</span>
             </div>
 
@@ -105,13 +105,13 @@ export function ProductHero({ product }: ProductHeroProps) {
             <div className="flex flex-wrap gap-4 pt-4">
               <button
                 onClick={() => setIsDrawerOpen(true)}
-                className="px-8 py-4 bg-amber-600 text-white rounded-full font-semibold hover:bg-amber-700 transition-all shadow-lg shadow-amber-200/50 hover:shadow-amber-300/50 flex items-center gap-2 text-base"
+                className="px-8 py-4 bg-amber-600 text-white rounded-full font-semibold hover:bg-amber-700 transition-all shadow-lg shadow-amber-200/50 hover:shadow-amber-300/50 flex items-center gap-2 text-sm sm:text-base"
               >
                 Customize Your Box
               </button>
               <button
                 onClick={handleCallNow}
-                className="px-8 py-4 border-2 border-gray-300 text-gray-700 rounded-full font-semibold hover:border-amber-600 hover:text-amber-600 transition-all flex items-center gap-2 text-base"
+                className="px-8 py-4 border-2 border-gray-300 text-gray-700 rounded-full font-semibold hover:border-amber-600 hover:text-amber-600 transition-all flex items-center gap-2 text-sm sm:text-base"
               >
                 <Phone className="w-4 h-4" />
                 Call Now

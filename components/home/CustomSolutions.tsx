@@ -167,7 +167,7 @@ export default function CustomSolutions({
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.2, duration: 0.5 }}
-              className="mt-6 text-4xl font-bold tracking-tight text-gray-900 md:text-5xl lg:text-6xl"
+              className="mt-6 text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900 md:text-5xl lg:text-6xl"
             >
               {heading}
             </motion.h2>
@@ -178,7 +178,7 @@ export default function CustomSolutions({
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.3, duration: 0.5 }}
-              className="mt-6 text-lg leading-relaxed text-gray-600"
+              className="mt-6 text-sm sm:text-sm sm:text-base leading-7 text-gray-600"
             >
               {description}
             </motion.p>
@@ -193,7 +193,7 @@ export default function CustomSolutions({
             >
               <Link
                 href={ctaPrimary.href}
-                className="group inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3.5 text-base font-semibold text-white shadow-lg shadow-amber-600/25 transition-all duration-300 hover:bg-amber-700 hover:gap-3 hover:shadow-2xl hover:shadow-amber-600/30 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2"
+                className="group inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3.5 text-sm sm:text-base font-semibold text-white shadow-lg shadow-amber-600/25 transition-all duration-300 hover:bg-amber-700 hover:gap-3 hover:shadow-2xl hover:shadow-amber-600/30 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2"
               >
                 {ctaPrimary.text}
                 <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
@@ -201,7 +201,7 @@ export default function CustomSolutions({
               
               <Link
                 href={ctaSecondary.href}
-                className="group inline-flex items-center gap-2 rounded-full border-2 border-amber-200 bg-transparent px-6 py-3.5 text-base font-semibold text-amber-700 transition-all duration-300 hover:border-amber-400 hover:bg-amber-50 hover:gap-3 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2"
+                className="group inline-flex items-center gap-2 rounded-full border-2 border-amber-200 bg-transparent px-6 py-3.5 text-sm sm:text-base font-semibold text-amber-700 transition-all duration-300 hover:border-amber-400 hover:bg-amber-50 hover:gap-3 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2"
               >
                 {ctaSecondary.text}
                 <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
@@ -253,12 +253,12 @@ export default function CustomSolutions({
                 </div>
                 
                 {/* Title */}
-                <h3 className="text-lg font-semibold text-gray-900 transition-colors duration-300 group-hover:text-amber-600">
+                <h3 className="text-sm sm:text-sm sm:text-base font-semibold text-gray-900 transition-colors duration-300 group-hover:text-amber-600">
                   {feature.title}
                 </h3>
                 
                 {/* Description */}
-                <p className="mt-2 text-sm leading-relaxed text-gray-600">
+                <p className="mt-2 text-sm leading-7 text-gray-600">
                   {feature.description}
                 </p>
 

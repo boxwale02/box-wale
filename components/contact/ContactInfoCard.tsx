@@ -34,7 +34,7 @@ export default function ContactInfoCard({
         <p className="text-sm font-medium text-gray-500 uppercase tracking-wider mb-0.5">
           {title}
         </p>
-        <p className="text-base font-semibold text-gray-900">{value}</p>
+        <p className="text-sm sm:text-base font-semibold text-gray-900">{value}</p>
         <p className="text-sm text-gray-500 mt-0.5">{description}</p>
       </div>
     </motion.div>

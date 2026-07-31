@@ -440,7 +440,7 @@ const handleChange = (
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full py-4 bg-amber-600 text-white rounded-full font-semibold hover:bg-amber-700 transition-all shadow-lg shadow-amber-200/50 flex items-center justify-center gap-2 text-base disabled:opacity-70 disabled:cursor-not-allowed"
+                className="w-full py-4 bg-amber-600 text-white rounded-full font-semibold hover:bg-amber-700 transition-all shadow-lg shadow-amber-200/50 flex items-center justify-center gap-2 text-sm sm:text-base disabled:opacity-70 disabled:cursor-not-allowed"
               >
                 {isSubmitting ? (
                   <>

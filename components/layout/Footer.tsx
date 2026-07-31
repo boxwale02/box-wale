@@ -181,7 +181,7 @@ const Footer: React.FC = () => {
                 <span className="absolute -bottom-1 left-0 w-full h-[2px] bg-gradient-to-r from-amber-400/80 to-transparent" />
               </div>
             </Link>
-            <p className="text-white/50 text-sm leading-relaxed max-w-xs">
+            <p className="text-white/50 text-sm leading-7 max-w-xs">
               Premium Packaging Solutions for Businesses, Brands & Every
               Special Occasion.
             </p>

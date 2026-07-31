@@ -85,7 +85,7 @@ const itemVariants = {
 
 const ManufacturingProcess = () => {
   return (
-    <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-20">
+    <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-14 md:py-16 lg:py-20">
       {/* Subtle Amber Glow Effects */}
       <div className="absolute -top-40 -left-40 h-80 w-80 rounded-full bg-amber-100/30 blur-3xl" />
       <div className="absolute -bottom-40 -right-40 h-80 w-80 rounded-full bg-amber-50/40 blur-3xl" />
@@ -175,7 +175,7 @@ const ManufacturingProcess = () => {
                             </motion.div>
                           </div>
                           {/* Description - Bottom */}
-                          <p className="text-sm leading-relaxed text-gray-600 text-right">
+                          <p className="text-sm leading-7 text-gray-600 text-right">
                             {step.description}
                           </p>
                         </>
@@ -197,7 +197,7 @@ const ManufacturingProcess = () => {
                             </h3>
                           </div>
                           {/* Description - Bottom */}
-                          <p className="text-sm leading-relaxed text-gray-600 text-left">
+                          <p className="text-sm leading-7 text-gray-600 text-left">
                             {step.description}
                           </p>
                         </>
@@ -269,13 +269,13 @@ const ManufacturingProcess = () => {
                         <Icon className="h-6 w-6" strokeWidth={1.75} />
                       </motion.div>
                       {/* Title - Right */}
-                      <h3 className="flex-1 text-lg font-semibold text-gray-900">
+                      <h3 className="flex-1 text-sm sm:text-sm sm:text-base font-semibold text-gray-900">
                         {step.title}
                       </h3>
                     </div>
 
                     {/* Description - Bottom */}
-                    <p className="text-sm leading-relaxed text-gray-600">
+                    <p className="text-sm leading-7 text-gray-600">
                       {step.description}
                     </p>
 

@@ -95,22 +95,22 @@ const ProductCard = ({
             </span>
           )} */}
           
-          <h3 className={`font-bold text-white ${size === 'hero' ? 'text-2xl md:text-3xl lg:text-4xl' : 'text-lg md:text-xl'}`}>
+          <h3 className={`font-bold text-white ${size === 'hero' ? 'text-2xl md:text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl lg:text-2xl sm:text-3xl lg:text-4xl' : 'text-sm sm:text-sm sm:text-base md:text-xl'}`}>
             {product.name}
           </h3>
           
-          <p className={`mt-1 text-gray-200 ${size === 'hero' ? 'text-sm md:text-base line-clamp-2' : 'text-xs line-clamp-1'}`}>
+          <p className={`mt-1 text-gray-200 ${size === 'hero' ? 'text-sm md:text-sm sm:text-base line-clamp-2' : 'text-xs line-clamp-1'}`}>
             {product.description}
           </p>
           
           <div className="mt-2 md:mt-3 flex flex-wrap items-center gap-2 md:gap-3">
-            <span className={`inline-flex items-center rounded-full bg-white/95 px-2.5 py-0.5 md:px-3 md:py-1 font-bold text-gray-900 shadow-lg backdrop-blur-sm ${size === 'hero' ? 'text-sm md:text-base' : 'text-xs'}`}>
+            <span className={`inline-flex items-center rounded-full bg-white/95 px-2.5 py-0.5 md:px-3 md:py-1 font-bold text-gray-900 shadow-lg backdrop-blur-sm ${size === 'hero' ? 'text-sm md:text-sm sm:text-base' : 'text-xs'}`}>
               From ₹{product.startingPrice}
             </span>
             
             <Link
               href={`/products/${product.slug}`}
-              className={`inline-flex items-center gap-1.5 font-medium text-white transition-all duration-300 hover:text-amber-300 hover:gap-2 ${size === 'hero' ? 'text-sm md:text-base' : 'text-xs'}`}
+              className={`inline-flex items-center gap-1.5 font-medium text-white transition-all duration-300 hover:text-amber-300 hover:gap-2 ${size === 'hero' ? 'text-sm md:text-sm sm:text-base' : 'text-xs'}`}
             >
               Explore
               <ArrowRight className={`transition-transform duration-300 group-hover:translate-x-1 ${size === 'hero' ? 'h-4 w-4' : 'h-3 w-3'}`} />
@@ -142,7 +142,7 @@ const SmallProductCard = ({ product }: { product: Product }) => (
         )}
       </div>
       <div className="flex w-1/2 flex-col justify-center p-3 md:p-4">
-        <h3 className="text-sm md:text-base font-semibold text-gray-900 transition-colors duration-300 group-hover:text-amber-600 line-clamp-1">
+        <h3 className="text-sm md:text-sm sm:text-base font-semibold text-gray-900 transition-colors duration-300 group-hover:text-amber-600 line-clamp-1">
           {product.name}
         </h3>
         <p className="mt-1 text-xs text-gray-600 line-clamp-2">
@@ -210,11 +210,11 @@ export default function FeaturedProducts({ data }: FeaturedProductsProps) {
           {data.badge}
         </span>
       )}
-      <h2 className="mx-auto mt-6 max-w-3xl text-3xl font-bold tracking-tight text-gray-900 md:text-4xl lg:text-5xl">
+      <h2 className="mx-auto mt-6 max-w-3xl text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900 md:text-2xl sm:text-3xl lg:text-4xl lg:text-4xl">
         {data?.heading || "Nikah Nama Box"}
       </h2>
       {data?.description && (
-        <p className="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-gray-600 md:text-lg">
+        <p className="mx-auto mt-4 max-w-2xl text-sm sm:text-base leading-7 text-gray-600 md:text-sm sm:text-sm sm:text-base">
           {data.description}
         </p>
       )}
@@ -233,7 +233,7 @@ export default function FeaturedProducts({ data }: FeaturedProductsProps) {
       >
         <Link
           href={`${data.cta.href}?category=Nikah%20Nama%20Box`}
-          className="group inline-flex items-center gap-3 rounded-full bg-amber-600 px-8 py-4 text-base font-semibold text-white shadow-xl shadow-amber-600/25 transition-all duration-300 hover:bg-amber-700 hover:gap-4 md:text-lg"
+          className="group inline-flex items-center gap-3 rounded-full bg-amber-600 px-8 py-4 text-sm sm:text-base font-semibold text-white shadow-xl shadow-amber-600/25 transition-all duration-300 hover:bg-amber-700 hover:gap-4 md:text-sm sm:text-sm sm:text-base"
         >
           {data.cta.text}
           <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
@@ -247,7 +247,7 @@ export default function FeaturedProducts({ data }: FeaturedProductsProps) {
   // LAYOUT: 1 Product - Large centered hero card
   if (productCount === 1) {
     return (
-      <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-20">
+      <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-14 md:py-16 lg:py-20">
         <div className="container relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader />
           <div className="mx-auto max-w-3xl">
@@ -267,7 +267,7 @@ export default function FeaturedProducts({ data }: FeaturedProductsProps) {
   // LAYOUT: 2 Products - Two equal-width large cards
   if (productCount === 2) {
     return (
-      <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-20">
+      <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-14 md:py-16 lg:py-20">
         <div className="container relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
@@ -284,7 +284,7 @@ export default function FeaturedProducts({ data }: FeaturedProductsProps) {
   // LAYOUT: 3 Products - Three equal-width large cards
   if (productCount === 3) {
     return (
-      <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-20">
+      <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-14 md:py-16 lg:py-20">
         <div className="container relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
@@ -304,7 +304,7 @@ export default function FeaturedProducts({ data }: FeaturedProductsProps) {
     const remainingProducts = products.slice(1);
 
     return (
-      <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-20">
+      <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-14 md:py-16 lg:py-20">
         <div className="container relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader />
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
@@ -337,7 +337,7 @@ export default function FeaturedProducts({ data }: FeaturedProductsProps) {
     const remainingProducts = products.slice(1);
 
     return (
-      <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-20">
+      <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-14 md:py-16 lg:py-20">
         <div className="container relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader />
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
@@ -370,7 +370,7 @@ export default function FeaturedProducts({ data }: FeaturedProductsProps) {
     const remainingProducts = products.slice(1);
 
     return (
-      <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-20">
+      <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-14 md:py-16 lg:py-20">
         <div className="container relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader />
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
@@ -410,7 +410,7 @@ export default function FeaturedProducts({ data }: FeaturedProductsProps) {
     const remainingProducts = products.slice(1);
 
     return (
-      <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-20">
+      <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-14 md:py-16 lg:py-20">
         <div className="container relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader />
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
@@ -443,7 +443,7 @@ export default function FeaturedProducts({ data }: FeaturedProductsProps) {
     const remainingProducts = products.slice(1);
 
     return (
-      <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-20">
+      <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-14 md:py-16 lg:py-20">
         <div className="container relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader />
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">

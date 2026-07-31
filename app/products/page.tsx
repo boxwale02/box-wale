@@ -281,10 +281,10 @@ useEffect(() => {
             <Sparkles className="w-3.5 h-3.5" />
             Our Collection
           </div>
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-neutral-900 mb-4">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl sm:text-5xl lg:text-6xl font-bold text-neutral-900 mb-4">
             Premium Packaging Solutions
           </h1>
-          <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
+          <p className="text-sm sm:text-sm sm:text-base text-neutral-600 max-w-2xl mx-auto">
             Explore our complete range of customizable packaging solutions
             designed for quality, elegance, and durability.
           </p>
@@ -513,7 +513,7 @@ useEffect(() => {
       <section className="pb-20 lg:pb-28">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           {filteredProducts.length === 0 ? (
-            <div className="text-center py-20">
+            <div className="text-center py-14 md:py-16 lg:py-20">
               <div className="w-24 h-24 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Package className="w-12 h-12 text-gray-400" />
               </div>
@@ -593,7 +593,7 @@ useEffect(() => {
                       }`}>
                         <div className="flex-1">
                           <div className="flex items-start justify-between gap-2">
-                            <h2 className="text-lg font-bold text-neutral-900 mb-1 group-hover:text-amber-600 transition-colors line-clamp-2">
+                            <h2 className="text-sm sm:text-sm sm:text-base font-bold text-neutral-900 mb-1 group-hover:text-amber-600 transition-colors line-clamp-2">
                               {product.name}
                             </h2>
                           </div>
@@ -602,7 +602,7 @@ useEffect(() => {
                               {product.category}
                             </span>
                           )}
-                          <p className="text-neutral-600 text-sm mb-3 line-clamp-2 leading-relaxed">
+                          <p className="text-neutral-600 text-sm mb-3 line-clamp-2 leading-7">
                             {product.description}
                           </p>
                         </div>

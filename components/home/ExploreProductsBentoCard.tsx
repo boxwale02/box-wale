@@ -94,7 +94,7 @@ export default function ExploreProductsBentoCard({
         <h3 className="mb-2 font-serif text-xl font-semibold tracking-tight text-gray-900 transition-colors duration-300 group-hover:text-amber-600">
           {category.title}
         </h3>
-        <p className="mb-4 text-sm leading-relaxed text-gray-600">
+        <p className="mb-4 text-sm leading-7 text-gray-600">
           {category.description}
         </p>
 
