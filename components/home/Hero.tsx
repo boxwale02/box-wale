@@ -32,10 +32,10 @@ export default function Hero() {
       <div className="absolute left-1/2 top-1/2 h-[550px] w-[550px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-amber-500/10 blur-3xl" />
 
       {/* Content */}
-      <div className="relative z-10 mx-auto flex max-w-5x5 flex-col items-center px-6 text-center">
+      <div className="relative z-10 mx-auto flex max-w-5xl flex-col items-center px-6 text-center">
         <h2
           id="hero-heading"
-          className="max-w-4x4 text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl"
+          className="max-w-4xl text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight tracking-tight text-white"
         >
           Handmade {" "}
           <span className="text-amber-400">
@@ -44,7 +44,7 @@ export default function Hero() {
           Hamper
         </h2>
 
-        <p className="mt-4 max-w-3xl text-sm sm:text-sm sm:text-base leading-8 text-gray-200 md:text-xl">
+        <p className="mt-4 max-w-3xl text-base sm:text-lg md:text-xl leading-relaxed text-gray-200">
           Crafted for Businesses, Brands & Every Special Occasion.
         </p>
 

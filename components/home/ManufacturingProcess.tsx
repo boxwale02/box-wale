@@ -147,7 +147,7 @@ const ManufacturingProcess = () => {
                         isEven ? "ml-auto" : "mr-auto"
                       }`}
                     >
-                      {/* Step Number */}
+                      {/* Step Number - Desktop Only */}
                       <div
                         className={`mb-3 text-sm font-bold tracking-wider text-amber-500 ${
                           isEven ? "text-right" : "text-left"
@@ -208,7 +208,7 @@ const ManufacturingProcess = () => {
                     </motion.div>
                   </div>
 
-                  {/* Timeline Node */}
+                  {/* Timeline Node - Desktop Only */}
                   <div className="absolute left-1/2 flex h-14 w-14 -translate-x-1/2 items-center justify-center rounded-full bg-gradient-to-br from-amber-400 to-amber-500 shadow-lg shadow-amber-200/50">
                     <span className="text-sm font-bold text-white">
                       {step.stepNumber}
@@ -223,59 +223,57 @@ const ManufacturingProcess = () => {
           </motion.div>
         </div>
 
-        {/* Timeline - Tablet & Mobile */}
+        {/* Timeline - Tablet & Mobile (Center Line aur Donut DONO HIDE kar diye gaye hain) */}
+               {/* Timeline - Tablet & Mobile */}
         <div className="relative block lg:hidden">
-          {/* Center Line */}
-          <div className="absolute left-6 top-0 h-full w-0.5 bg-gradient-to-b from-amber-400 via-amber-300 to-amber-400/20" />
+          
+          {/* 🟢 LINE HIDE HAI */}
+          <div className="absolute left-6 top-0 h-full w-0.5 bg-gradient-to-b from-amber-400 via-amber-300 to-amber-400/20 hidden" />
 
           <motion.div
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-50px" }}
-            className="relative space-y-12 pl-16"
+            /* 🟢 YAHAN CHANGE KIYA HAI: pl-16 hata kar pl-0 kiya hai */
+            className="relative space-y-12 pl-0"
           >
             {processSteps.map((step, index) => {
               const Icon = step.icon;
 
               return (
                 <motion.div key={step.id} variants={itemVariants}>
-                  {/* Timeline Node */}
-                  <div className="absolute left-0 flex h-12 w-12 -translate-x-1/2 items-center justify-center rounded-full bg-gradient-to-br from-amber-400 to-amber-500 shadow-lg shadow-amber-200/50">
-                    <span className="text-xs font-bold text-white">
-                      {step.stepNumber}
-                    </span>
+                  
+                  {/* 🟢 DONUT HIDE HAI */}
+                  <div className="absolute left-0 flex h-10 w-10 -translate-x-1/2 items-center justify-center rounded-full bg-gradient-to-br from-amber-400 to-amber-500 shadow-lg shadow-amber-200/50 hidden">
+                    <div className="h-3 w-3 rounded-full bg-white/80"></div>
                   </div>
 
-                  {/* Card - Mobile/Tablet: Icon left, Title right */}
+                  {/* Card - Mobile/Tablet */}
                   <motion.div
                     whileHover={{
                       y: -4,
                       transition: { duration: 0.3 },
                     }}
-                    className="group relative rounded-3xl border border-neutral-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-xl hover:border-amber-300/50"
+                    className="group relative rounded-3xl border border-neutral-200 bg-white p-5 sm:p-6 shadow-sm transition-all duration-300 hover:shadow-xl hover:border-amber-300/50"
                   >
-                    <div className="mb-3 text-xs font-bold tracking-wider text-amber-500">
-                      STEP {step.stepNumber}
-                    </div>
-
-                    <div className="flex items-center gap-4 mb-3">
+                    <div className="flex items-center gap-3 sm:gap-4 mb-3">
                       {/* Icon - Left */}
                       <motion.div
                         whileHover={{ scale: 1.1 }}
                         transition={{ duration: 0.3 }}
-                        className="flex-shrink-0 inline-flex rounded-2xl bg-amber-50 p-3 text-amber-600"
+                        className="flex-shrink-0 inline-flex rounded-2xl bg-amber-50 p-2.5 sm:p-3 text-amber-600"
                       >
-                        <Icon className="h-6 w-6" strokeWidth={1.75} />
+                        <Icon className="h-5 w-5 sm:h-6 sm:w-6" strokeWidth={1.75} />
                       </motion.div>
                       {/* Title - Right */}
-                      <h3 className="flex-1 text-sm sm:text-sm sm:text-base font-semibold text-gray-900">
+                      <h3 className="flex-1 text-sm sm:text-base font-semibold text-gray-900">
                         {step.title}
                       </h3>
                     </div>
 
                     {/* Description - Bottom */}
-                    <p className="text-sm leading-7 text-gray-600">
+                    <p className="text-xs sm:text-sm leading-6 sm:leading-7 text-gray-600">
                       {step.description}
                     </p>
 

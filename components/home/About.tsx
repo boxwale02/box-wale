@@ -113,7 +113,7 @@ export default function About() {
                 {/* Legacy Quote Overlay */}
                 <div className="absolute bottom-0 left-0 right-0 p-5 md:p-6 pointer-events-none">
                   <blockquote className="text-white">
-                    <p className="text-sm sm:text-sm sm:text-base md:text-xl font-semibold italic leading-tight">
+                    <p className="text-base sm:text-lg md:text-xl font-semibold italic leading-tight">
                       "Honoring the past. Building the future."
                     </p>
                     <p className="mt-1 text-sm text-amber-200/90">
@@ -181,7 +181,7 @@ export default function About() {
             </div>
 
             {/* Main Heading */}
-            <h2 className="mt-3 text-2xl sm:text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl lg:text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight text-gray-900">
+            <h2 className="mt-3 mt-3 text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight text-gray-900">
               Carrying Forward the{' '}
               <span className="relative inline-block">
                 <span className="relative z-10 text-amber-600">Legacy</span>
@@ -192,7 +192,7 @@ export default function About() {
             {/* Description with Clickable Mr. Unus Shalim */}
             <div className="mt-3 flex items-start gap-3">
               <div className="flex-1">
-                <p className="text-sm sm:text-sm sm:text-base leading-7 text-gray-700">
+                <p className="text-base sm:text-lg leading-7 text-gray-700">
                   Today, the next generation proudly continues the vision established by{' '}
                   <span 
                     onClick={() => setIsImageModalOpen(true)}
@@ -228,7 +228,7 @@ export default function About() {
                   <Award className="w-4 h-4 text-amber-600" />
                 </div>
                 <div>
-                  <p className="text-sm sm:text-sm sm:text-base font-bold text-amber-600">35+</p>
+                  <p className="text-base sm:text-lg font-bold text-amber-600">35+</p>
                   <p className="text-[10px] text-gray-600 uppercase tracking-wide">Years of Excellence</p>
                 </div>
               </div>
@@ -237,7 +237,7 @@ export default function About() {
                   <Users className="w-4 h-4 text-amber-600" />
                 </div>
                 <div>
-                  <p className="text-sm sm:text-sm sm:text-base font-bold text-amber-600">1000+</p>
+                  <p className="text-base sm:text-lg font-bold text-amber-600">1000+</p>
                   <p className="text-[10px] text-gray-600 uppercase tracking-wide">Happy Clients</p>
                 </div>
               </div>
@@ -246,7 +246,7 @@ export default function About() {
                   <Users className="w-4 h-4 text-amber-600" />
                 </div>
                 <div>
-                  <p className="text-sm sm:text-sm sm:text-base font-bold text-amber-600">100K+</p>
+                  <p className="text-base sm:text-lg font-bold text-amber-600">100K+</p>
                   <p className="text-[10px] text-gray-600 uppercase tracking-wide">Boxes Delivered</p>
                 </div>
               </div>
@@ -255,7 +255,7 @@ export default function About() {
                   <Users className="w-4 h-4 text-amber-600" />
                 </div>
                 <div>
-                  <p className="text-sm sm:text-sm sm:text-base font-bold text-amber-600">100%</p>
+                  <p className="text-base sm:text-lg font-bold text-amber-600">100%</p>
                   <p className="text-[10px] text-gray-600 uppercase tracking-wide">Quality Assurance</p>
                 </div>
               </div>

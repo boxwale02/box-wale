@@ -172,17 +172,17 @@ export default function WhyChooseUs() {
         >
           <motion.header
             variants={fadeUp}
-            className="mx-auto max-w-3x3 text-center"
+            className="mx-auto max-w-3xl text-center"
           >
             <span className="inline-flex rounded-full border border-amber-200 bg-amber-50 px-5 py-2 text-xs font-semibold uppercase tracking-[0.22em] text-amber-700">
               {data.badge}
             </span>
 
-            <h2 className="mt-5 text-4x4 font-bold tracking-tight text-neutral-900 md:text-5xl lg:text-6xl">
+            <h2 className="mt-5 text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-neutral-900 md:text-5xl lg:text-6xl">
               {data.title}
             </h2>
 
-            <p className="mx-auto mt-6 max-w-2x2 text-sm sm:text-sm sm:text-base leading-8 text-neutral-600">
+            <p className="mx-auto mt-6 max-w-2xl text-sm sm:text-sm sm:text-base leading-8 text-neutral-600">
               {data.description}
             </p>
           </motion.header>
@@ -250,7 +250,7 @@ export default function WhyChooseUs() {
               </div>
 
               <div className="absolute bottom-0 left-0 w-full p-10">
-                <h3 className="max-w-xl text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
+                <h3 className="max-w-xl text-2xl md:text-3xl lg:text-4xlfont-bold text-white">
                   {data.featured.title}
                 </h3>
 
@@ -321,7 +321,7 @@ export default function WhyChooseUs() {
                       BOX WALE
                     </span> */}
 
-                    <h3 className="mt-6 text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl font-bold text-neutral-900">
+                    <h3 className="mt-6 text-2xl md:text-3xl lg:text-4xl font-bold text-neutral-900">
                       {data.cta.text}
                     </h3>
 
