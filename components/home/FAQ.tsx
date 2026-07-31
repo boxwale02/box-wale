@@ -241,13 +241,13 @@ const FAQSection = () => {
                   </p>
 
                   {/* Updated Buttons with Modal and Call functionality */}
-                  <div className="flex flex-wrap justify-center lg:justify-start gap-4 pt-2">
+                  <div className="flex w-full gap-3 pt-2">
                     {/* Get Quote Button - Opens Modal */}
                     <motion.button
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={openModal}
-                      className="flex items-center gap-2 px-6 py-3 bg-amber-500 hover:bg-amber-600 text-white rounded-xl shadow-lg shadow-amber-500/30 transition-all duration-300"
+                      className="flex flex-1 lg:flex-none items-center justify-center gap-2 px-6 py-3 bg-amber-500 hover:bg-amber-600 text-white rounded-xl shadow-lg shadow-amber-500/30 transition-all duration-300"
                     >
                       <MessageCircle className="w-5 h-5" />
                       <span className="font-medium">Get Quote</span>
@@ -258,8 +258,7 @@ const FAQSection = () => {
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       href="tel:+918209293728"
-                      className="flex items-center gap-2 px-6 py-3 bg-green-500 hover:bg-green-600 text-white rounded-xl shadow-lg shadow-green-500/30 transition-all duration-300"
-                    >
+                      className="flex flex-1 lg:flex-none items-center justify-center gap-2 px-6 py-3 bg-green-500 hover:bg-green-600 text-white rounded-xl shadow-lg shadow-green-500/30 transition-all duration-300"  >
                       <Phone className="w-5 h-5" />
                       <span className="font-medium">Call Now</span>
                     </motion.a>
