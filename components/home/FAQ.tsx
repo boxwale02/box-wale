@@ -230,7 +230,7 @@ const FAQSection = () => {
 
               <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
                 {/* Left Content */}
-                <div className="space-y-4">
+                <div className="space-y-4 text-center lg:text-left">
                   <h3 className="text-2xl font-bold text-gray-900 sm:text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl">
                     Let&apos;s Discuss Your Packaging Requirements
                   </h3>
@@ -241,7 +241,7 @@ const FAQSection = () => {
                   </p>
 
                   {/* Updated Buttons with Modal and Call functionality */}
-                  <div className="flex flex-wrap gap-4 pt-2">
+                  <div className="flex flex-wrap justify-center lg:justify-start gap-4 pt-2">
                     {/* Get Quote Button - Opens Modal */}
                     <motion.button
                       whileHover={{ scale: 1.05 }}

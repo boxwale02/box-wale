@@ -4,11 +4,6 @@ import { motion } from "framer-motion";
 import {
     Star,
     Quote,
-    Users,
-    Package,
-    Repeat,
-    MapPin,
-    ArrowRight,
 } from "lucide-react";
 
 const testimonials = [
@@ -62,54 +57,33 @@ const testimonials = [
     },
 ];
 
-const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-        opacity: 1,
-        transition: {
-            staggerChildren: 0.1,
-            delayChildren: 0.2,
-        },
-    },
-};
-
-const itemVariants = {
-    hidden: { opacity: 0, y: 30 },
-    visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-            duration: 0.6,
-            ease: "easeOut",
-        },
-    },
-};
-
 const CustomerTestimonials = () => {
     // Double the testimonials for seamless looping
     const doubledTestimonials = [...testimonials, ...testimonials];
 
     return (
-        <section className="relative overflow-hidden bg-white py-16 md:py-14 md:py-16 lg:py-20">
+        <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-20">
             {/* Subtle Amber Glow Effects */}
             <div className="absolute -top-40 -right-40 h-80 w-80 rounded-full bg-amber-100/30 blur-3xl" />
             <div className="absolute -bottom-40 -left-40 h-80 w-80 rounded-full bg-amber-50/40 blur-3xl" />
             <div className="absolute top-1/2 left-1/2 h-96 w-96 -translate-x-1/2 -translate-y-1/2 rounded-full bg-amber-50/20 blur-3xl" />
 
-            <div className="container relative mx-auto px-4 sm:px-6 lg:px-8">
+            {/* 🟢 CHANGE 1: Mobile par side padding (px-4) ko kam kar diya */}
+            <div className="container relative mx-auto px-2 sm:px-6 lg:px-8">
+                
                 {/* Header */}
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
-                    className="mx-auto mb-14 max-w-3xl text-center"
+                    className="mx-auto mb-10 max-w-3xl text-center"
                 >
                     <span className="inline-block rounded-full bg-amber-100 px-4 py-1.5 text-sm font-semibold uppercase tracking-wider text-amber-700">
                         Customer Testimonials
                     </span>
-                    <h2 className="mt-3 text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900 sm:text-2xl sm:text-3xl lg:text-4xl">
-                        Trusted by Businesses, Brands & Customers Across India
+                    <h2 className="mt-3 text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900">
+                        Trusted by Businesses & Brands
                     </h2>
                     <p className="mt-3 text-sm sm:text-base text-gray-600">
                         From corporate gifting to luxury packaging solutions
@@ -119,7 +93,8 @@ const CustomerTestimonials = () => {
                 {/* First Row - Moving Left */}
                 <div className="overflow-hidden">
                     <motion.div
-                        className="flex gap-5"
+                        // 🟢 CHANGE 2: gap-4 se kam kar ke gap-3 kar diya
+                        className="flex gap-3" 
                         animate={{
                             x: ["0%", "-50%"],
                         }}
@@ -132,40 +107,43 @@ const CustomerTestimonials = () => {
                         {doubledTestimonials.map((testimonial, index) => (
                             <div
                                 key={`${testimonial.id}-${index}`}
-                                className="min-w-[320px] max-w-[320px] flex-shrink-0 rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-xl hover:border-amber-300/50"
+                                // 🟢 CHANGE 3: width aur padding ko bahut chhota kar diya
+                                className="w-[220px] sm:min-w-[260px] flex-shrink-0 rounded-2xl border border-neutral-200 bg-white p-4 shadow-sm transition-all duration-300 hover:shadow-xl hover:border-amber-300/50"
                             >
-                                {/* Quote Icon */}
-                                <div className="mb-3 text-amber-400/60">
-                                    <Quote className="h-6 w-6" strokeWidth={1.5} />
+                                {/* Quote Icon - Chhota kiya */}
+                                <div className="mb-2 text-amber-400/60">
+                                    <Quote className="h-4 w-4" strokeWidth={1.5} />
                                 </div>
 
-                                {/* Rating */}
-                                <div className="mb-3 flex gap-1">
+                                {/* Rating - Chhota kiya */}
+                                <div className="mb-2 flex gap-0.5">
                                     {[...Array(5)].map((_, i) => (
                                         <Star
                                             key={i}
-                                            className="h-4 w-4 fill-amber-400 text-amber-400"
+                                            className="h-3 w-3 fill-amber-400 text-amber-400"
                                         />
                                     ))}
                                 </div>
 
-                                {/* Review */}
-                                <p className="mb-4 text-sm leading-7 text-gray-700 line-clamp-3">
+                                {/* Review - Font aur line height chhota kiya */}
+                                <p className="mb-3 text-[11px] sm:text-sm leading-5 sm:leading-7 text-gray-700 line-clamp-3">
                                     &ldquo;{testimonial.review}&rdquo;
                                 </p>
 
-                                {/* Customer Info with Image */}
-                                <div className="flex items-center gap-3 border-t border-neutral-100 pt-4">
+                                {/* Customer Info - Padding aur font chhota kiya */}
+                                <div className="flex items-center gap-2 border-t border-neutral-100 pt-3">
                                     <img 
                                         src="https://res.cloudinary.com/gpto0thu/image/upload/v1783975398/jn_h1ffa8.png" 
                                         alt={testimonial.name}
-                                        className="h-10 w-10 shrink-0 rounded-full object-cover shadow-md"
+                                        className="h-8 w-8 shrink-0 rounded-full object-cover shadow-sm"
                                     />
                                     <div>
-                                        <h4 className="text-sm font-semibold text-gray-900">
+                                        {/* Name ka font size chhota kiya */}
+                                        <h4 className="text-[11px] sm:text-sm font-semibold text-gray-900">
                                             {testimonial.name}
                                         </h4>
-                                        <p className="text-xs text-gray-500">
+                                        {/* Company ka font size chhota kiya */}
+                                        <p className="text-[10px] sm:text-xs text-gray-500">
                                             {testimonial.company}
                                         </p>
                                     </div>
@@ -176,9 +154,10 @@ const CustomerTestimonials = () => {
                 </div>
 
                 {/* Second Row - Moving Right */}
-                <div className="mt-5 overflow-hidden">
+                <div className="mt-4 overflow-hidden">
                     <motion.div
-                        className="flex gap-5"
+                        // 🟢 CHANGE 2: gap-4 se kam kar ke gap-3 kar diya
+                        className="flex gap-3"
                         animate={{
                             x: ["-50%", "0%"],
                         }}
@@ -191,40 +170,41 @@ const CustomerTestimonials = () => {
                         {doubledTestimonials.map((testimonial, index) => (
                             <div
                                 key={`${testimonial.id}-${index}`}
-                                className="min-w-[320px] max-w-[320px] flex-shrink-0 rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-xl hover:border-amber-300/50"
+                                // 🟢 CHANGE 3: width aur padding ko bahut chhota kar diya
+                                className="w-[220px] sm:min-w-[260px] flex-shrink-0 rounded-2xl border border-neutral-200 bg-white p-4 shadow-sm transition-all duration-300 hover:shadow-xl hover:border-amber-300/50"
                             >
                                 {/* Quote Icon */}
-                                <div className="mb-3 text-amber-400/60">
-                                    <Quote className="h-6 w-6" strokeWidth={1.5} />
+                                <div className="mb-2 text-amber-400/60">
+                                    <Quote className="h-4 w-4" strokeWidth={1.5} />
                                 </div>
 
                                 {/* Rating */}
-                                <div className="mb-3 flex gap-1">
+                                <div className="mb-2 flex gap-0.5">
                                     {[...Array(5)].map((_, i) => (
                                         <Star
                                             key={i}
-                                            className="h-4 w-4 fill-amber-400 text-amber-400"
+                                            className="h-3 w-3 fill-amber-400 text-amber-400"
                                         />
                                     ))}
                                 </div>
 
                                 {/* Review */}
-                                <p className="mb-4 text-sm leading-7 text-gray-700 line-clamp-3">
+                                <p className="mb-3 text-[11px] sm:text-sm leading-5 sm:leading-7 text-gray-700 line-clamp-3">
                                     &ldquo;{testimonial.review}&rdquo;
                                 </p>
 
-                                {/* Customer Info with Image */}
-                                <div className="flex items-center gap-3 border-t border-neutral-100 pt-4">
+                                {/* Customer Info */}
+                                <div className="flex items-center gap-2 border-t border-neutral-100 pt-3">
                                     <img 
                                         src="https://res.cloudinary.com/gpto0thu/image/upload/v1783975398/jn_h1ffa8.png" 
                                         alt={testimonial.name}
-                                        className="h-10 w-10 shrink-0 rounded-full object-cover shadow-md"
+                                        className="h-8 w-8 shrink-0 rounded-full object-cover shadow-sm"
                                     />
                                     <div>
-                                        <h4 className="text-sm font-semibold text-gray-900">
+                                        <h4 className="text-[11px] sm:text-sm font-semibold text-gray-900">
                                             {testimonial.name}
                                         </h4>
-                                        <p className="text-xs text-gray-500">
+                                        <p className="text-[10px] sm:text-xs text-gray-500">
                                             {testimonial.company}
                                         </p>
                                     </div>
