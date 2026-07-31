@@ -41,15 +41,16 @@ function FeatureCard({ feature }: FeatureCardProps) {
       variants={cardVariants}
       whileHover={FEATURE_CARD_HOVER}
       tabIndex={0}
+      // 🟢 CHANGE 1: p-8 ko mobile par p-4 kar diya, aur rounded-2xl diya
       className="
         group
         relative
         overflow-hidden
-        rounded-3xl
+        rounded-2xl
         border
         border-neutral-200
         bg-white
-        p-8
+        p-4 sm:p-6 lg:p-8
         shadow-sm
         transition-all
         duration-500
@@ -73,17 +74,19 @@ function FeatureCard({ feature }: FeatureCardProps) {
       />
 
       {/* First line: Icon + Heading side by side */}
-      <div className="relative z-10 flex items-center gap-4">
+      <div className="relative z-10 flex items-center gap-3 sm:gap-4">
         <motion.div
           whileHover={ICON_HOVER}
+          // 🟢 CHANGE 2: Mobile par icon box ko chhota kiya (h-10 w-10)
           className="
             flex
-            h-14
-            w-14
+            h-10 w-10
+            sm:h-12 sm:w-12
+            lg:h-14 lg:w-14
             shrink-0
             items-center
             justify-center
-            rounded-2xl
+            rounded-xl sm:rounded-2xl
             border
             border-neutral-200
             bg-neutral-50
@@ -94,23 +97,21 @@ function FeatureCard({ feature }: FeatureCardProps) {
           "
         >
           <Icon
-            className="h-6 w-6 text-amber-600 transition-transform duration-300 group-hover:scale-110"
+            // 🟢 CHANGE 3: Icon ka size mobile par chhota kiya
+            className="h-5 w-5 sm:h-6 sm:w-6 text-amber-600 transition-transform duration-300 group-hover:scale-110"
             strokeWidth={1.8}
           />
         </motion.div>
 
-        <h3 className="text-xl font-semibold text-neutral-900 tracking-tight">
+        {/* 🟢 CHANGE 4: Title ka font mobile par chhota (text-base) */}
+        <h3 className="text-base sm:text-lg lg:text-xl font-semibold text-neutral-900 tracking-tight">
           {feature.title}
         </h3>
-
-        {/* Optional number badge - positioned to the right */}
-        {/* <span className="ml-auto text-sm font-semibold tracking-[0.2em] text-neutral-300">
-          {feature.number}
-        </span> */}
       </div>
 
       {/* Description below */}
-      <p className="relative z-10 mt-4 leading-7 text-neutral-600">
+      {/* 🟢 CHANGE 5: Description ka font mobile par chhota (text-xs) aur leading tight */}
+      <p className="relative z-10 mt-2 sm:mt-3 text-xs sm:text-sm leading-5 sm:leading-7 text-neutral-600">
         {feature.description}
       </p>
 
@@ -160,7 +161,7 @@ export default function WhyChooseUs() {
         <div className="absolute bottom-32 right-20 h-24 w-24 -rotate-12 rounded-[34px] border border-neutral-200 opacity-40" />
       </div>
 
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <motion.div
           variants={sectionVariants}
           initial="hidden"
@@ -174,20 +175,22 @@ export default function WhyChooseUs() {
             variants={fadeUp}
             className="mx-auto max-w-3xl text-center"
           >
-            <span className="inline-flex rounded-full border border-amber-200 bg-amber-50 px-5 py-2 text-xs font-semibold uppercase tracking-[0.22em] text-amber-700">
+            <span className="inline-flex rounded-full border border-amber-200 bg-amber-50 px-4 py-1.5 text-[10px] sm:text-xs font-semibold uppercase tracking-[0.22em] text-amber-700">
               {data.badge}
             </span>
 
-            <h2 className="mt-5 text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-neutral-900 md:text-5xl lg:text-6xl">
+            <h2 className="mt-4 text-2xl sm:text-3xl lg:text-5xl font-bold tracking-tight text-neutral-900">
               {data.title}
             </h2>
 
-            <p className="mx-auto mt-6 max-w-2xl text-sm sm:text-sm sm:text-base leading-8 text-neutral-600">
+            <p className="mx-auto mt-4 max-w-2xl text-xs sm:text-sm leading-6 sm:leading-8 text-neutral-600">
               {data.description}
             </p>
           </motion.header>
 
-          <div className="mt-10 grid gap-6 lg:grid-cols-12">
+          <div className="mt-8 sm:mt-10 grid gap-4 sm:gap-6 lg:grid-cols-12">
+            
+            {/* 🟢 MAIN IMAGE BOX - YAHAN BADA CHANGE KIYA HAI */}
             <motion.article
               variants={featuredCard}
               whileHover={FEATURE_CARD_HOVER}
@@ -195,7 +198,7 @@ export default function WhyChooseUs() {
                 group
                 relative
                 overflow-hidden
-                rounded-3xl
+                rounded-2xl sm:rounded-3xl
                 border
                 border-neutral-200
                 bg-white
@@ -214,11 +217,10 @@ export default function WhyChooseUs() {
                 }}
                 className="
                   absolute
-                  right-8
-                  top-8
+                  right-4 top-4
+                  sm:right-8 sm:top-8
                   z-10
-                  h-20
-                  w-20
+                  h-16 w-16 sm:h-20 sm:w-20
                   rounded-full
                   bg-amber-300
                   blur-3xl
@@ -226,13 +228,14 @@ export default function WhyChooseUs() {
                 "
               />
 
-              <div className="absolute left-8 top-8 z-20">
-                <span className="rounded-full border border-amber-200 bg-white/90 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-amber-700 backdrop-blur-sm">
+              <div className="absolute left-4 top-4 sm:left-8 sm:top-8 z-20">
+                <span className="rounded-full border border-amber-200 bg-white/90 px-3 py-1 sm:px-4 sm:py-2 text-[10px] sm:text-xs font-semibold uppercase tracking-[0.2em] text-amber-700 backdrop-blur-sm">
                   {data.featured.badge}
                 </span>
               </div>
 
-              <div className="relative h-[430px] overflow-hidden">
+              {/* 🟢 IMAGE HEIGHT RESPONSIVE KAR DI (Mobile pe kam height) */}
+              <div className="relative h-[280px] sm:h-[350px] lg:h-[430px] overflow-hidden">
                 <motion.div
                   whileHover={IMAGE_HOVER}
                   transition={{ duration: 0.7 }}
@@ -246,21 +249,23 @@ export default function WhyChooseUs() {
                   />
                 </motion.div>
 
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
               </div>
 
-              <div className="absolute bottom-0 left-0 w-full p-10">
-                <h3 className="max-w-xl text-2xl md:text-3xl lg:text-4xlfont-bold text-white">
+              {/* 🟢 TEXT KO MOBILE PAR PERFECT KAR DIYA */}
+              <div className="absolute bottom-0 left-0 w-full p-4 sm:p-6 lg:p-10">
+                <h3 className="max-w-xl text-base sm:text-xl lg:text-4xl font-bold text-white leading-tight sm:leading-tight">
                   {data.featured.title}
                 </h3>
 
-                <p className="mt-4 max-w-lg leading-7 text-white/85">
+                <p className="mt-2 sm:mt-3 max-w-lg text-[10px] sm:text-sm leading-4 sm:leading-6 text-white/90">
                   {data.featured.description}
                 </p>
               </div>
             </motion.article>
 
-            <div className="grid gap-6 lg:col-span-5">
+            {/* FIRST 2 CARDS */}
+            <div className="grid gap-4 sm:gap-6 lg:col-span-5">
               {data.features.slice(0, 2).map((feature) => (
                 <FeatureCard
                   key={feature.number}
@@ -269,7 +274,10 @@ export default function WhyChooseUs() {
               ))}
             </div>
 
-            <div className="grid gap-6 lg:col-span-12 lg:grid-cols-12">
+            {/* BAAKI 4 CARDS + CTA */}
+            <div className="grid gap-4 sm:gap-6 lg:col-span-12 lg:grid-cols-12">
+              
+              {/* 🟢 YAHAN CARDS CHHOTE KARNE KE LIYE lg:col-span-3 RAKHA HAI */}
               {data.features.slice(2, 6).map((feature) => (
                 <div
                   key={feature.number}
@@ -288,6 +296,7 @@ export default function WhyChooseUs() {
                 </div>
               ))}
 
+              {/* CTA CARD */}
               <motion.article
                 variants={cardVariants}
                 whileHover={FEATURE_CARD_HOVER}
@@ -295,11 +304,11 @@ export default function WhyChooseUs() {
                   group
                   relative
                   overflow-hidden
-                  rounded-3xl
+                  rounded-2xl sm:rounded-3xl
                   border
                   border-amber-200
                   bg-amber-50
-                  p-3
+                  p-4 sm:p-6 lg:p-8
                   shadow-sm
                   lg:col-span-6
                 "
@@ -317,60 +326,17 @@ export default function WhyChooseUs() {
 
                 <div className="relative z-10 flex h-full flex-col justify-between">
                   <div>
-                    {/* <span className="inline-flex rounded-full border border-amber-200 bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.22em] text-amber-700">
-                      BOX WALE
-                    </span> */}
-
-                    <h3 className="mt-6 text-2xl md:text-3xl lg:text-4xl font-bold text-neutral-900">
+                    {/* 🟢 CTA TEXT RESPONSIVE KAR DIYA */}
+                    <h3 className="mt-2 text-lg sm:text-xl lg:text-4xl font-bold text-neutral-900">
                       {data.cta.text}
                     </h3>
 
-                    <p className="mt-4 max-w-lg leading-7 text-neutral-600">
+                    <p className="mt-2 sm:mt-3 max-w-lg text-xs sm:text-sm leading-5 sm:leading-7 text-neutral-600">
                       Let's create premium packaging that reflects your brand,
                       protects your products, and leaves a lasting impression on
                       every customer.
                     </p>
                   </div>
-
-                  {/* <motion.button
-                    whileHover={BUTTON_HOVER}
-                    whileTap={BUTTON_TAP}
-                    className="
-                      mt-10
-                      inline-flex
-                      w-fit
-                      items-center
-                      gap-3
-                      rounded-full
-                      bg-amber-500
-                      px-7
-                      py-4
-                      font-medium
-                      text-white
-                      shadow-lg
-                      transition-colors
-                      duration-300
-                      hover:bg-amber-600
-                      focus:outline-none
-                      focus:ring-2
-                      focus:ring-amber-500
-                      focus:ring-offset-2
-                    "
-                  >
-                    {data.cta.button}
-
-                    <motion.span
-                      className="flex"
-                      whileHover={{
-                        x: 5,
-                      }}
-                    >
-                      <ArrowRight
-                        size={18}
-                        strokeWidth={2}
-                      />
-                    </motion.span>
-                  </motion.button> */}
                 </div>
               </motion.article>
             </div>
