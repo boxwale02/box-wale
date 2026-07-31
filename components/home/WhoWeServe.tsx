@@ -110,28 +110,28 @@ const WhoWeServe = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="mx-auto mb-16 max-w-3xl text-center md:mb-20"
+          className="mx-auto mb-10 md:mb-16 max-w-3xl text-center"
         >
-          <span className="inline-block rounded-full bg-amber-100 px-4 py-1.5 text-sm font-semibold uppercase tracking-wider text-amber-700">
+          <span className="inline-block rounded-full bg-amber-100 px-3 py-1 text-xs sm:px-4 sm:py-1.5 sm:text-sm font-semibold uppercase tracking-wider text-amber-700">
             Who We Serve
           </span>
-          <h2 className="mt-4 text-2xl sm:text-3xl lg:text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900 sm:text-2xl sm:text-3xl lg:text-4xl md:text-5xl">
+          <h2 className="mt-3 text-xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900">
             Packaging Solutions for Every Industry & Occasion
           </h2>
-          <p className="mt-4 text-sm sm:text-sm sm:text-base text-gray-600 md:text-xl">
+          <p className="mt-3 text-xs sm:text-base text-gray-600">
             We help businesses, brands, and individuals create memorable
             packaging experiences with custom-designed boxes crafted for every
             purpose.
           </p>
         </motion.div>
 
-        {/* Cards Grid */}
+        {/* Cards Grid - 🟢 YAHAN MAIN CHANGE KIYA HAI */}
         <motion.div
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
-          className="grid grid-cols-1 gap-6 sm:gap-8 md:grid-cols-2 lg:grid-cols-4"
+          className="grid grid-cols-2 gap-3 sm:gap-6 md:grid-cols-2 lg:grid-cols-4"
         >
           {targetCategories.map((category) => {
             const Icon = category.icon;
@@ -143,45 +143,37 @@ const WhoWeServe = () => {
                   y: -8,
                   transition: { duration: 0.3 },
                 }}
-                className="group relative rounded-3xl border border-neutral-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-xl hover:border-amber-300/50"
+                // 🟢 Mobile par padding 'p-4' kiya, aur chhota 'rounded-2xl' diya
+                className="group relative rounded-2xl border border-neutral-200 bg-white p-3 sm:p-6 shadow-sm transition-all duration-300 hover:shadow-xl hover:border-amber-300/50"
               >
                 {/* Top Row: Icon + Title */}
-                <div className="flex items-center gap-4 mb-3">
-                  {/* Icon - Left */}
+                <div className="flex flex-col items-start gap-2 mb-2 sm:flex-row sm:items-center sm:gap-4 sm:mb-3">
+                  
+                  {/* Icon - 🟢 Mobile par chhota kiya (h-5 w-5) */}
                   <motion.div
                     whileHover={{ scale: 1.1 }}
                     transition={{ duration: 0.3 }}
-                    className="flex-shrink-0 inline-flex rounded-2xl bg-amber-50 p-3.5 text-amber-600"
+                    className="flex-shrink-0 inline-flex rounded-xl bg-amber-50 p-2 text-amber-600 sm:rounded-2xl sm:p-3.5"
                   >
-                    <Icon className="h-7 w-7" strokeWidth={1.75} />
+                    <Icon className="h-5 w-5 sm:h-7 sm:w-7" strokeWidth={1.75} />
                   </motion.div>
 
-                  {/* Title - Right */}
-                  <h3 className="text-xl font-semibold text-gray-900 leading-tight pt-1">
+                  {/* Title - 🟢 Mobile par font chhota (text-sm) */}
+                  <h3 className="text-sm sm:text-xl font-semibold text-gray-900 leading-tight pt-0.5 sm:pt-1">
                     {category.title}
                   </h3>
                 </div>
 
-                {/* Description - Bottom */}
-                <p className="text-sm leading-7 text-gray-600">
+                {/* Description - 🟢 Mobile par text chhota (text-[10px]) aur line-height kam */}
+                <p className="text-[10px] leading-4 text-gray-600 sm:text-sm sm:leading-7">
                   {category.description}
                 </p>
 
                 {/* Hover Border Highlight */}
-                <div className="absolute inset-0 rounded-3xl border-2 border-transparent transition-colors duration-300 group-hover:border-amber-300/50" />
+                <div className="absolute inset-0 rounded-2xl border-2 border-transparent transition-colors duration-300 group-hover:border-amber-300/50 sm:rounded-3xl" />
               </motion.div>
             );
           })}
-        </motion.div>
-
-        {/* Premium CTA Card */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7, delay: 0.4 }}
-          className="mt-16 md:mt-20"
-        >
         </motion.div>
       </div>
     </section>
